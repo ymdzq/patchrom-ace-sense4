@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.htc.preference.HtcPreferenceScreen android:title="accessibility_settings_title" android:key="misc_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <com.htc.preference.HtcPreferenceCategory android:title="@string/htc_settings" android:key="misccat">
+        <com.htc.preference.HtcPreference android:title="@string/phone_info" android:key="pref_phone_info" android:summary="@string/phone_info_summary">
+            <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.RadioInfo" />
+        </com.htc.preference.HtcPreference>
+    </com.htc.preference.HtcPreferenceCategory>
+    <com.htc.preference.HtcPreferenceCategory android:title="@string/misc_appearance">
+        <com.htc.preference.HtcCheckBoxPreference android:title="@string/cube_animation" android:key="cube_animation" android:summary="@string/cube_animation_summary" />
+        <com.htc.preference.HtcListPreference android:entries="@array/animations_entries" android:title="@string/animations" android:key="animations" android:summary="@string/animations_summary" android:defaultValue="0" android:entryValues="@array/animations_values" />
+        <com.htc.preference.HtcListPreference android:entries="@array/pref_overscrollcolor_entries" android:title="@string/overscroll_glow_color" android:key="overscroll_color" android:summary="@string/overscroll_glow_color_summary" android:defaultValue="-1" android:entryValues="@array/pref_overscrollcolor_values" />
+    </com.htc.preference.HtcPreferenceCategory>
+    <com.htc.preference.HtcPreferenceCategory android:title="@string/misc_system">
+        <com.htc.preference.HtcPreference android:title="@string/autobacklight_brightness" android:summary="@string/autobacklight_brightness_summary">
+            <intent android:targetPackage="com.m0narx.tweaks" android:action="android.intent.action.MAIN" android:targetClass="com.m0narx.tweaks.autobrightness_settings" />
+        </com.htc.preference.HtcPreference>
+        <com.htc.preference.HtcPreference android:title="@string/minfree" android:summary="@string/minfree_summary">
+            <intent android:targetPackage="com.m0narx.tweaks" android:action="android.intent.action.MAIN" android:targetClass="com.m0narx.tweaks.minfree_settings" />
+        </com.htc.preference.HtcPreference>
+    </com.htc.preference.HtcPreferenceCategory>
+    <com.htc.preference.HtcPreferenceCategory android:title="@string/misc_sms_network">
+        <com.htc.preference.HtcCheckBoxPreference android:title="@string/fast_dormancy" android:key="fast_dormancy" android:summary="@string/fast_dormancy_summary" />
+        <com.htc.preference.HtcCheckBoxPreference android:title="@string/disable_smartsync" android:key="disable_smartsync" android:summary="@string/disable_smartsync_summary" />
+    </com.htc.preference.HtcPreferenceCategory>
+    <com.htc.preference.HtcPreferenceCategory android:title="@string/sound" android:key="sound">
+        <com.htc.preference.HtcCheckBoxPreference android:title="@string/use_xloud" android:key="use_xloud" android:summary="@string/use_xloud_summary" />
+    </com.htc.preference.HtcPreferenceCategory>
+    <com.htc.preference.HtcPreferenceCategory android:title="@string/different_tweaks" android:key="misccat">
+        <com.htc.preference.HtcCheckBoxPreference android:title="@string/use_bravia" android:key="use_bravia" android:summary="@string/use_bravia_summary" />
+    </com.htc.preference.HtcPreferenceCategory>
+</com.htc.preference.HtcPreferenceScreen>

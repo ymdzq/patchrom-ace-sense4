@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.htc.widget.HtcListItem android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:headerbar="http://schemas.android.com/apk/res/com.htc">
+    <com.htc.widget.HtcListItemImageButton android:id="@id/delete_icon" />
+    <com.htc.widget.HtcListItemTileImage android:id="@id/list_item_img" />
+    <com.htc.widget.HtcListItem1LineCenteredText android:id="@id/qapp_name" />
+    <com.htc.widget.HtcListItemImageButton android:id="@id/dragger_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/common_rearrange" />
+</com.htc.widget.HtcListItem>

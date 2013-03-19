@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="longpress_buttons_entries">
+        <item>Ninguna</item>
+        <item>Aplicaciones recientes</item>
+        <item>Diálogo de reinicio</item>
+        <item>Diálogo de apagado</item>
+        <item>Acción Buscar</item>
+        <item>Desplegar barra de estado</item>
+        <item>Matar la aplicación actual</item>
+        <item>Tomar una captura de pantalla</item>
+        <item>Activar linterna</item>
+        <item>Música - Reproducción/Pausa</item>
+        <item>Música - Anterior</item>
+        <item>Música - Siguiente</item>
+        <item>Apagar pantalla</item>
+        <item>Aplicación personalizada</item>
+    </string-array>
+    <string-array name="animations_entries">
+        <item>Estándar</item>
+        <item>JellyBean</item>
+        <item>Voltear</item>
+        <item>Plegar</item>
+        <item>Volar</item>
+    </string-array>
+    <string-array name="shortpress_buttons_entries">
+        <item>Ninguna</item>
+        <item>Aplicaciones recientes</item>
+        <item>Diálogo de reinicio</item>
+        <item>Diálogo de apagado</item>
+        <item>Desplegar barra de estado</item>
+        <item>Matar la aplicación actual</item>
+        <item>Tomar una captura de pantalla</item>
+        <item>Activar linterna</item>
+        <item>Música - Reproducción/Pausa</item>
+        <item>Música - Anterior</item>
+        <item>Música - Siguiente</item>
+        <item>Apagar pantalla</item>
+        <item>Aplicación personalizada</item>
+    </string-array>
+    <string-array name="longress_home_ls_entries">
+        <item>Ninguna</item>
+        <item>Activar linterna</item>
+        <item>Aplicación personalizada</item>
+    </string-array>
+    <string-array name="longpress_timeout_entries">
+        <item>Muy corto</item>
+        <item>Corto</item>
+        <item>Normal</item>
+        <item>Largo</item>
+        <item>Muy largo</item>
+    </string-array>
+    <string-array name="sweep_wake_entries">
+        <item>Habilitado</item>
+        <item>Habilitado (sin luz en botones)</item>
+        <item>Deshabilitado</item>
+    </string-array>
+    <string-array name="lockscreen_orientation_entries">
+        <item>Sólo vertical</item>
+        <item>Sólo modo apaisado</item>
+        <item>Automático</item>
+    </string-array>
+    <string-array name="clock_widget_apps">
+        <item>Aplicación de reloj personalizada</item>
+        <item>Aplicación de tiempo personalizada</item>
+    </string-array>
+    <string-array name="keyboard_arrows_entries">
+        <item>Mostrar</item>
+        <item>Ocultar sólo en vertical</item>
+        <item>Ocultar</item>
+    </string-array>
+    <string-array name="unlock_buttons_entries">
+        <item>Inicio</item>
+        <item>Menú</item>
+        <item>Volver</item>
+        <item>Buscar</item>
+    </string-array>
+    <string-array name="extended_statusbartext_entries">
+        <item>Deshabilitado</item>
+        <item>Estado de WiFi</item>
+        <item>Estado de batería</item>
+        <item>Información de RAM</item>
+        <item>Espacio en tarjeta SD</item>
+        <item>Perfil de CPU</item>
+        <item>Uso de CPU</item>
+        <item>Frecuencia de CPU</item>
+    </string-array>
+    <string-array name="use_media_entries">
+        <item>Sin uso</item>
+        <item>HTC Music - Pista anterior/siguiente</item>
+        <item>HTC Music - Reproducción-Pausa/Pista siguiente</item>
+    </string-array>
+    <string-array name="h_icon_replace_entries">
+        <item>H</item>
+        <item>4G</item>
+        <item>4G LTE</item>
+        <item>LTE</item>
+        <item>3G</item>
+        <item>3G+</item>
+        <item>H+</item>
+    </string-array>
+    <string-array name="pref_clock_entries">
+        <item>Oculto</item>
+        <item>Normal</item>
+        <item>Centrado</item>
+    </string-array>
+    <string-array name="pref_rosie_smooth_entries">
+        <item>Normal</item>
+        <item>Super-suave</item>
+        <item>Ultra-suave</item>
+    </string-array>
+    <string-array name="pref_volume_entries">
+        <item>Normal</item>
+        <item>Fino</item>
+        <item>Más fino</item>
+    </string-array>
+    <string-array name="pref_overscrollcolor_entries">
+        <item>Ninguno</item>
+        <item>Verde</item>
+        <item>Rojo</item>
+        <item>Azul</item>
+        <item>Amarillo</item>
+        <item>Naranja</item>
+        <item>Cián</item>
+        <item>Rosa</item>
+        <item>Púrpura</item>
+        <item>Negro</item>
+        <item>Gris</item>
+        <item>Blanco</item>
+    </string-array>
+    <string-array name="battery_text_display_entries">
+        <item>Normal %</item>
+        <item>Pequeño %</item>
+        <item>Sin %</item>
+        <item>Texto oculto</item>
+    </string-array>
+    <string-array name="pref_overscroll_effect_entries">
+        <item>Ninguno</item>
+        <item>Brillo del borde</item>
+        <item>Rebote y brillo</item>
+        <item>Rebote</item>
+    </string-array>
+    <string-array name="quick_settings_entries">
+        <item>Ajustes</item>
+        <item>Volumen</item>
+        <item>Auto apagado de pantalla</item>
+        <item>Brillo automático</item>
+        <item>Linterna</item>
+        <item>Rotación</item>
+        <item>Modo avión</item>
+        <item>WiFi</item>
+        <item>Red móvil</item>
+        <item>Modo de red</item>
+        <item>Punto de acceso WiFi</item>
+        <item>Sincronización automática</item>
+        <item>Bluetooth</item>
+        <item>GPS</item>
+        <item>Modo silencio</item>
+        <item>Modo vibración</item>
+        <item>ADB inhalámbrico</item>
+        <item>Administrador de tareas</item>
+        <item>Sony xLOUD</item>
+        <item>Reiniciar</item>
+        <item>Power Saver</item>
+    </string-array>
+    <string-array name="hide_lockscreen_date_entries">
+        <item>Ocultar fecha</item>
+        <item>Ocultar hora</item>
+        <item>Ocultar AM/PM</item>
+    </string-array>
+    <string-array name="hide_lockscreen_shortcuts_entries">
+        <item>Ocultar etiquetas</item>
+        <item>Ocultar burbujas</item>
+    </string-array>
+    <string-array name="hide_noti_entries">
+        <item>Icono de alarma</item>
+        <item>Icono de GPS</item>
+        <item>Icono de auriculares</item>
+        <item>Icono de volumen</item>
+        <item>Icono de Wifi</item>
+        <item>Icono de Bluetooth</item>
+        <item>Icono de ADB</item>
+    </string-array>
+    <string-array name="autobrightness_entries">
+        <item>Normal</item>
+        <item>Bajo</item>
+        <item>Más bajo</item>
+        <item>Manual</item>
+    </string-array>
+    <string-array name="show_apm_items">
+        <item>Reiniciar</item>
+        <item>Captura de pantalla</item>
+        <item>Modo avión</item>
+        <item>Datos móviles</item>
+        <item>Control de sonido</item>
+    </string-array>
+    <string-array name="recentapps_style_entries">
+        <item>Predeterminado</item>
+        <item>Android 4.0</item>
+    </string-array>
+    <string-array name="pref_capacitive_backlight_entries">
+        <item>Predeterminada</item>
+        <item>Atenuada</item>
+        <item>Automática</item>
+        <item>Siempre apagada</item>
+        <item>Siempre encendida, máxima</item>
+        <item>Siempre encendida, atenuada</item>
+    </string-array>
+    <string-array name="gestures_entries">
+        <item>Ninguna</item>
+        <item>Aplicación personalizada</item>
+        <item>Aplicaciones recientes</item>
+        <item>Ir a la aplicación anterior</item>
+        <item>Ir a Inicio</item>
+        <item>Matar la aplicación actual</item>
+        <item>Reproducción/Pausa</item>
+        <item>Pista siguiente</item>
+        <item>Pista anterior</item>
+        <item>Desplegar el área de notificación</item>
+    </string-array>
+    <string-array name="minfree_entries">
+        <item>De serie</item>
+        <item>Multitarea</item>
+        <item>Multitarea Xtreme</item>
+        <item>Multitarea Ultimate</item>
+        <item>Manual</item>
+    </string-array>
+    <string-array name="anim_strings">
+        <item>Normal</item>
+        <item>Acelerar y desacelerar</item>
+        <item>Desacelerar</item>
+        <item>Acelerar</item>
+    </string-array>
+    <string-array name="pulse_strings">
+        <item>Pulso Arriba y Abajo</item>
+        <item>Estándar</item>
+    </string-array>
+</resources>

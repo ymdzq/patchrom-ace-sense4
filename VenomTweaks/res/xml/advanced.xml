@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.htc.preference.HtcPreferenceScreen android:title="accessibility_settings_title" android:key="advanced_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <com.htc.preference.HtcPreferenceCategory android:title="@string/fixing_optimizing" android:key="fixoptcat">
+        <com.htc.preference.HtcPreference android:title="@string/zipalign_apks" android:key="pref_zip" android:summary="@string/zipalign_apks_summary" />
+    </com.htc.preference.HtcPreferenceCategory>
+    <com.htc.preference.HtcPreferenceCategory android:title="@string/system" android:key="system">
+        <com.htc.preference.HtcCheckBoxPreference android:title="@string/mount_system_rw" android:key="pref_sysrw" />
+        <com.htc.preference.HtcCheckBoxPreference android:title="@string/disable_logcat" android:key="disable_logcat" android:summary="@string/disable_logcat_summary" />
+    </com.htc.preference.HtcPreferenceCategory>
+    <com.htc.preference.HtcPreferenceCategory android:title="@string/wipes" android:key="wipecat">
+        <com.htc.preference.HtcPreference android:title="@string/wipe_cache" android:key="pref_cache" />
+        <com.htc.preference.HtcPreference android:title="@string/wipe_dalvik" android:key="pref_dalvik" />
+    </com.htc.preference.HtcPreferenceCategory>
+    <com.htc.preference.HtcPreferenceCategory android:title="@string/fonts" android:key="fonts">
+        <com.htc.preference.HtcCheckBoxPreference android:title="@string/fonts_title" android:key="custom_font" android:summary="@string/fonts_summary" />
+    </com.htc.preference.HtcPreferenceCategory>
+    <com.htc.preference.HtcPreferenceCategory android:title="@string/boot" android:key="boot">
+        <com.htc.preference.HtcCheckBoxPreference android:title="@string/bootanimation" android:key="bootanimation" />
+        <com.htc.preference.HtcCheckBoxPreference android:title="@string/downanimation" android:key="downanimation" />
+        <com.htc.preference.HtcCheckBoxPreference android:title="@string/enable_boot_sound" android:key="enable_boot_sound" />
+        <com.htc.preference.HtcCheckBoxPreference android:title="@string/boot_sound" android:key="boot_sound" />
+    </com.htc.preference.HtcPreferenceCategory>
+</com.htc.preference.HtcPreferenceScreen>

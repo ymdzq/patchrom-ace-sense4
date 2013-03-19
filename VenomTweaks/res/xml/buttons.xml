@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.htc.preference.HtcPreferenceScreen android:title="accessibility_settings_title" android:key="misc_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <com.htc.preference.HtcPreferenceCategory android:title="@string/keyboard" android:key="keyboard">
+        <com.htc.preference.HtcPreference android:title="@string/gestures" android:key="gestures" android:summary="@string/gestures_summary">
+            <intent android:targetPackage="com.m0narx.tweaks" android:action="android.intent.action.MAIN" android:targetClass="com.m0narx.tweaks.gestures" />
+        </com.htc.preference.HtcPreference>
+        <com.htc.preference.HtcListPreference android:entries="@array/pref_capacitive_backlight_entries" android:title="@string/capacitive_backlight" android:key="pref_capacitive_backlight" android:summary="@string/capacitive_backlight_summary" android:defaultValue="0" android:entryValues="@array/capacitive_backlight_values" />
+    </com.htc.preference.HtcPreferenceCategory>
+    <com.htc.preference.HtcPreferenceCategory android:title="@string/cat_volume_keys">
+        <com.htc.preference.HtcCheckBoxPreference android:title="@string/volume_wake" android:key="use_volume" android:summary="@string/volume_wake_summary" />
+        <com.htc.preference.HtcCheckBoxPreference android:title="@string/use_voldown_screenoff" android:key="use_voldown_screenoff" android:summary="@string/use_voldown_screenoff_summary" />
+    </com.htc.preference.HtcPreferenceCategory>
+    <com.htc.preference.HtcPreferenceCategory android:title="@string/keyboard_shortpress">
+        <com.htc.preference.HtcListPreference android:entries="@array/shortpress_buttons_entries" android:title="@string/shortpress_search" android:key="shortpress_search" android:summary="@string/shortpress_search_summary" android:defaultValue="0" android:entryValues="@array/shortpress_buttons_values" />
+    </com.htc.preference.HtcPreferenceCategory>
+    <com.htc.preference.HtcPreferenceCategory android:title="@string/keyboard_longpress" android:key="keyboard_longpress">
+        <com.htc.preference.HtcListPreference android:entries="@array/longpress_timeout_entries" android:title="@string/longpress_timeout" android:key="longpress_timeout" android:summary="@string/longpress_timeout_summary" android:defaultValue="0" android:entryValues="@array/longpress_timeout_values" />
+        <com.htc.preference.HtcListPreference android:entries="@array/longpress_buttons_entries" android:title="@string/longpress_home" android:key="longpress_home" android:summary="@string/longpress_home_summary" android:defaultValue="0" android:entryValues="@array/longpress_buttons_values" />
+        <com.htc.preference.HtcListPreference android:entries="@array/longpress_buttons_entries" android:title="@string/longpress_menu" android:key="longpress_menu" android:summary="@string/longpress_menu_summary" android:defaultValue="0" android:entryValues="@array/longpress_buttons_values" />
+        <com.htc.preference.HtcListPreference android:entries="@array/longpress_buttons_entries" android:title="@string/longpress_back" android:key="longpress_back" android:summary="@string/longpress_back_summary" android:defaultValue="0" android:entryValues="@array/longpress_buttons_values" />
+        <com.htc.preference.HtcListPreference android:entries="@array/longpress_buttons_entries" android:title="@string/longpress_search" android:key="longpress_search" android:summary="@string/longpress_search_summary" android:defaultValue="0" android:entryValues="@array/longpress_buttons_values" />
+    </com.htc.preference.HtcPreferenceCategory>
+</com.htc.preference.HtcPreferenceScreen>

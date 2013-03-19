@@ -1,0 +1,19 @@
+#!/system/bin/sh
+
+SCHEDULER=noop
+echo $SCHEDULER > /sys/block/mtdblock25/queue/scheduler
+echo $SCHEDULER > /sys/block/mtdblock26/queue/scheduler
+echo $SCHEDULER > /sys/block/mtdblock27/queue/scheduler
+echo $SCHEDULER > /sys/block/mmcblk1/queue/scheduler
+echo 1 > /sys/block/mmcblk1/queue/rotational
+for i in 1 2 3 4 5
+do
+	echo 0 > /sys/block/mtdblock$i/queue/rotational
+done
+sync
+echo "3" > /proc/sys/vm/drop_caches
+
+setprop dalvik.vm.execution-mode int:fast
+
+
+

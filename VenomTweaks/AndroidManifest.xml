@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest android:versionCode="145" android:versionName="1.4.5" package="com.m0narx.tweaks"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-sdk android:minSdkVersion="10" android:targetSdkVersion="15" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="com.htc.cloudstorage.dropbox.GET_TOKEN" />
+    <uses-permission android:name="com.htc.cloudstorage.skydrive.GET_TOKEN" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.htc.idlescreen.permission.SET_IDLESCREEN" />
+    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS" />
+    <application android:label="@string/app_name" android:icon="@drawable/icon" allowSkinChange="true">
+        <uses-library android:name="com.htc.fusion.fx" />
+        <activity android:label="@string/app_name" android:name=".main">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:label="About" android:name=".about">
+            <intent-filter>
+                <action android:name="com.m0narx.tweaks.about" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!--activity android:label="SystemUI" android:name=".systemui">
+            <intent-filter>
+                <action android:name="com.m0narx.tweaks.systemui" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:label="Rosie" android:name=".rosie">
+            <intent-filter>
+                <action android:name="com.m0narx.tweaks.rosie" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:label="lockscreen" android:name=".lockscreen">
+            <intent-filter>
+                <action android:name="com.m0narx.tweaks.lockscreen" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity-->
+        <activity android:label="misc" android:name=".misc">
+            <intent-filter>
+                <action android:name="com.m0narx.tweaks.misc" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:label="advanced" android:name=".advanced">
+            <intent-filter>
+                <action android:name="com.m0narx.tweaks.advanced" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:label="advanced" android:name=".buttons">
+            <intent-filter>
+                <action android:name="com.m0narx.tweaks.buttons" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:label="cpu_settings" android:name=".cpu_settings">
+            <intent-filter>
+                <action android:name="com.m0narx.tweaks.cpu_settings" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:label="carrierlabel" android:name=".StatusBarCaption">
+            <intent-filter>
+                <category android:name="android.intent.category.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:label="battery_settings" android:name=".battery_settings">
+            <intent-filter>
+                <category android:name="android.intent.category.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:label="clock_settings" android:name=".clock_settings">
+            <intent-filter>
+                <category android:name="android.intent.category.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:label="gestures" android:name=".gestures">
+            <intent-filter>
+                <category android:name="android.intent.category.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:label="settings" android:name=".settings">
+            <intent-filter>
+                <category android:name="android.intent.category.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".widgets.appPicker" android:configChanges="orientation">
+            <intent-filter>
+                <category android:name="android.intent.category.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:name="rosieTheme" android:configChanges="orientation">
+            <intent-filter>
+                <category android:name="android.intent.category.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:name="DeleteAndRearrangeQS" android:screenOrientation="behind" android:configChanges="orientation">
+            <intent-filter>
+                <category android:name="android.intent.category.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:label="autobrightness_settings" android:name=".autobrightness_settings">
+            <intent-filter>
+                <category android:name="android.intent.category.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:name="lockscreen_shortcuts">
+            <intent-filter>
+                <category android:name="android.intent.category.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:name="customLSnotifications">
+            <intent-filter>
+                <category android:name="android.intent.category.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".widgets.FilePicker" />
+        <activity android:name=".widgets.themePicker" />
+        <activity android:name="systemuiTheme" android:configChanges="orientation" />
+        <provider android:name=".provider.Carousel" android:authorities="com.m0narx.tweaks.provider.Carousel" />
+        <receiver android:name=".TweaksBroadcastReceiver" android:enabled="true" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.htc.intent.ACTION_PERSONALIZE_SKIN" />
+            </intent-filter>
+        </receiver>
+        <activity android:name="customizeRosieTheme" android:configChanges="orientation" />
+        <activity android:name="minfree_settings">
+            <intent-filter>
+                <category android:name="android.intent.category.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:name="customizeQuickLaunch">
+            <intent-filter>
+                <category android:name="android.intent.category.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:name="Equalizer" android:enabled="true" android:exported="true" android:excludeFromRecents="true" android:noHistory="true">
+            <intent-filter>
+                <category android:name="android.intent.category.MAIN" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

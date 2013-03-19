@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.htc.preference.HtcPreferenceScreen android:title="accessibility_settings_title" android:key="sense_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <com.htc.preference.HtcPreferenceCategory android:title="@string/homescreen" android:key="sensecat2">
+        <com.htc.preference.HtcCheckBoxPreference android:title="@string/show_unlock_animation" android:key="show_unlock_animation" />
+        <com.htc.preference.HtcCheckBoxPreference android:title="@string/enable_landscape" android:key="enable_landscape" android:summary="@string/enable_landscape_summary" />
+        <com.htc.preference.HtcCheckBoxPreference android:title="@string/rosie_ringscroll" android:key="rosie_ringscroll" android:summary="@string/rosie_ringscroll_summary" />
+        <com.htc.preference.HtcCheckBoxPreference android:title="@string/transp_navbar" android:key="nav_trans" android:summary="@string/transp_navbar_summary" />
+        <com.htc.preference.HtcCheckBoxPreference android:title="@string/rosie_scrollwall" android:key="rosie_scrollwall" android:summary="@string/rosie_scrollwall_summary" />
+        <com.htc.preference.HtcPreference android:title="@string/rosie_icon_theme" android:summary="@string/rosie_icon_theme_summary">
+            <intent android:targetPackage="com.m0narx.tweaks" android:action="android.intent.action.MAIN" android:targetClass="com.m0narx.tweaks.rosieTheme" />
+        </com.htc.preference.HtcPreference>
+    </com.htc.preference.HtcPreferenceCategory>
+    <com.htc.preference.HtcPreferenceCategory android:title="@string/app_drawer" android:key="sensecat3">
+        <com.m0narx.tweaks.colorpicker.ColorPickerPreference android:title="@string/rosie_bgcolor" android:key="rosie_bgcolor" android:summary="@string/rosie_bgcolor_summary" android:defaultValue="@integer/COLOR_BLACK" />
+        <com.htc.preference.HtcCheckBoxPreference android:title="@string/rosie_custombg" android:key="rosie_custombg" android:summary="@string/rosie_custombg_summary" />
+    </com.htc.preference.HtcPreferenceCategory>
+</com.htc.preference.HtcPreferenceScreen>

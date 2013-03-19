@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="unlock_buttons_entries">
+        <item>Home</item>
+        <item>Menu</item>
+        <item>Terug</item>
+        <item>Zoeken</item>
+    </string-array>
+    <string-array name="extended_statusbartext_entries">
+        <item>Uitgeschakeld</item>
+        <item>WiFi status</item>
+        <item>Accu status</item>
+        <item>RAM info</item>
+        <item>SD-Kaart ruimte</item>
+        <item>CPU-profiel</item>
+        <item>CPU-gebruik</item>
+        <item>CPU-frequentie</item>
+    </string-array>
+    <string-array name="use_media_entries">
+        <item>Niet gebruiken</item>
+        <item>Vorige/Volgend nummer</item>
+        <item>Afsp.-Pause/Volgend nummer</item>
+    </string-array>
+    <string-array name="h_icon_replace_entries">
+        <item>H</item>
+        <item>4G</item>
+        <item>4G LTE</item>
+        <item>LTE</item>
+        <item>3G</item>
+        <item>3G+</item>
+        <item>H+</item>
+    </string-array>
+    <string-array name="pref_clock_entries">
+        <item>Verbergen</item>
+        <item>Normaal</item>
+        <item>Gecentreerd</item>
+    </string-array>
+    <string-array name="pref_rosie_smooth_entries">
+        <item>Normaal</item>
+        <item>Supersmooth</item>
+        <item>Ultrasmooth</item>
+    </string-array>
+    <string-array name="pref_volume_entries">
+        <item>Normaal</item>
+        <item>Fijn</item>
+        <item>Fijnste</item>
+    </string-array>
+    <string-array name="pref_overscrollcolor_entries">
+        <item>Geen</item>
+        <item>Groen</item>
+        <item>Rood</item>
+        <item>Blauw</item>
+        <item>Geel</item>
+        <item>Oranje</item>
+        <item>Cyaan</item>
+        <item>Roze</item>
+        <item>Paars</item>
+        <item>Zwart</item>
+        <item>Grijs</item>
+        <item>Wit</item>
+    </string-array>
+    <string-array name="battery_text_display_entries">
+        <item>Standaard %</item>
+        <item>Klein %</item>
+        <item>Geen %</item>
+        <item>Verberg tekst</item>
+    </string-array>
+    <string-array name="pref_overscroll_effect_entries">
+        <item>Geen</item>
+        <item>Edge Glow</item>
+        <item>Stuiter en Glow</item>
+        <item>Stuiter</item>
+    </string-array>
+    <string-array name="quick_settings_entries">
+        <item>Tweaks</item>
+        <item>Volume</item>
+        <item>Autom. scherm uit</item>
+        <item>Autom. helderheid</item>
+        <item>Zaklamp</item>
+        <item>Draaien</item>
+        <item>Vliegtuigmodus</item>
+        <item>WiFi</item>
+        <item>Mobiel Internet</item>
+        <item>Network mode</item>
+        <item>WiFi Hotspot</item>
+        <item>AutoSync</item>
+        <item>Bluetooth</item>
+        <item>GPS</item>
+        <item>Stille modus</item>
+        <item>Trilstand</item>
+        <item>Draadloos ADB</item>
+        <item>Taakbeheer</item>
+        <item>Sony xLOUD</item>
+        <item>Herstarten</item>
+        <item>Power Saver</item>
+    </string-array>
+    <string-array name="hide_lockscreen_date_entries">
+        <item>Verberg datum</item>
+        <item>Verberg tijd</item>
+        <item>Verberg AM/PM</item>
+    </string-array>
+    <string-array name="hide_lockscreen_shortcuts_entries">
+        <item>Verberg labels</item>
+        <item>Verberg ringen</item>
+    </string-array>
+    <string-array name="hide_noti_entries">
+        <item>Alarm pictogram</item>
+        <item>GPS pictogram</item>
+        <item>Koptelefoon pictogram</item>
+        <item>Volume pictogrammen</item>
+        <item>WiFi pictogram</item>
+        <item>Bluetooth pictogram</item>
+        <item>ADB pictogram</item>
+    </string-array>
+    <string-array name="show_apm_items">
+        <item>Herstarten</item>
+        <item>Schermafdruk</item>
+        <item>Vliegtuigmodus</item>
+        <item>Mobiel internet</item>
+        <item>Volumebesturing</item>
+    </string-array>
+    <string-array name="recentapps_style_entries">
+        <item>Standaard</item>
+        <item>Android 4.0</item>
+    </string-array>
+    <string-array name="pref_capacitive_backlight_entries">
+        <item>Standaard</item>
+        <item>Gedimd</item>
+        <item>Automatisch</item>
+        <item>Altijd uit</item>
+        <item>Altijd aan, volledig</item>
+        <item>Altijd aan, gedimd</item>
+    </string-array>
+    <string-array name="gestures_entries">
+        <item>Geen</item>
+        <item>Aangepaste toep.</item>
+        <item>Recente toep.</item>
+        <item>Ga naar vorige toep.</item>
+        <item>Ga naar beginscherm</item>
+        <item>Huidige toep. afsluiten</item>
+        <item>Afsp./Pauzeren</item>
+        <item>Volgend nummer</item>
+        <item>Vorig nummer</item>
+        <item>Notificatiebalk uitvouwen</item>
+    </string-array>
+    <string-array name="pref_autobrightness_entries">
+        <item>Normaal</item>
+        <item>Laag</item>
+        <item>Laagste</item>
+    </string-array>
+</resources>

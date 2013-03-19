@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.htc.preference.HtcPreferenceScreen android:title="accessibility_settings_title" android:key="systemui_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <com.htc.preference.HtcPreferenceCategory android:title="@string/quicksettings_tweaks" />
+    <com.htc.preference.HtcCheckBoxPreference android:title="@string/hide_qs" android:key="hide_qs" android:summary="@string/hide_qs_summary" />
+    <com.htc.preference.HtcPreference android:title="@string/hide_n_reorder" android:key="hrquick_pref" android:summary="@string/hide_n_reorder_summary">
+        <intent android:targetPackage="com.m0narx.tweaks" android:action="android.intent.action.MAIN" android:targetClass="com.m0narx.tweaks.DeleteAndRearrangeQS" />
+    </com.htc.preference.HtcPreference>
+    <com.htc.preference.HtcCheckBoxPreference android:title="@string/quick_quick_settings" android:key="super_quick_settings" android:summary="@string/quick_quick_settings_summary" />
+    <com.htc.preference.HtcCheckBoxPreference android:title="@string/quicklauncher_state" android:key="quicklauncher_state" android:summary="@string/quicklauncher_state_summary" />
+    <com.htc.preference.HtcPreference android:title="@string/quicklauncher" android:key="quicklauncher" android:summary="@string/quicklauncher_summary">
+        <intent android:targetPackage="com.m0narx.tweaks" android:action="android.intent.action.MAIN" android:targetClass="com.m0narx.tweaks.customizeQuickLaunch" />
+    </com.htc.preference.HtcPreference>
+    <com.htc.preference.HtcPreferenceCategory android:title="@string/statusbar_tweaks" />
+    <com.htc.preference.HtcPreference android:title="@string/systemui_theme" android:key="theme">
+        <intent android:targetPackage="com.m0narx.tweaks" android:action="android.intent.action.MAIN" android:targetClass="com.m0narx.tweaks.systemuiTheme" />
+    </com.htc.preference.HtcPreference>
+    <com.htc.preference.HtcPreference android:title="@string/hide_notification_icons" android:key="hide_noti" />
+    <com.htc.preference.HtcPreference android:title="@string/battery_options" android:key="battery_options_pref">
+        <intent android:targetPackage="com.m0narx.tweaks" android:action="android.intent.action.MAIN" android:targetClass="com.m0narx.tweaks.battery_settings" />
+    </com.htc.preference.HtcPreference>
+    <com.htc.preference.HtcPreference android:title="@string/clock_options" android:key="clock_options_pref">
+        <intent android:targetPackage="com.m0narx.tweaks" android:action="android.intent.action.MAIN" android:targetClass="com.m0narx.tweaks.clock_settings" />
+    </com.htc.preference.HtcPreference>
+    <com.htc.preference.HtcListPreference android:entries="@array/h_icon_replace_entries" android:title="@string/h_icon_replace" android:key="h_icon_replace" android:summary="@string/h_icon_replace_summary" android:defaultValue="0" android:entryValues="@array/h_icon_replace_values" />
+    <com.htc.preference.HtcCheckBoxPreference android:title="@string/statusbar_icon" android:key="statusbar_icon" android:summary="@string/statusbar_icon_summary" />
+    <com.htc.preference.HtcPreference android:title="@string/statusbar_trans" android:key="statusbar_trans" android:summary="@string/statusbar_trans_summary" />
+    <com.htc.preference.HtcCheckBoxPreference android:title="@string/cm_brightness_control" android:key="cm_brightness_control" android:summary="@string/cm_brightness_control_summary" />
+    <com.htc.preference.HtcPreferenceCategory android:title="@string/notification_pulldown_tweaks" />
+    <com.htc.preference.HtcCheckBoxPreference android:title="@string/hide_date" android:key="hide_date" android:summary="@string/hide_date_summary" />
+    <com.htc.preference.HtcPreference android:title="@string/statusbarcaption_options" android:key="statusbarcaption_options" android:summary="@string/statusbarcaption_options_summary">
+        <intent android:targetPackage="com.m0narx.tweaks" android:action="android.intent.action.MAIN" android:targetClass="com.m0narx.tweaks.StatusBarCaption" />
+    </com.htc.preference.HtcPreference>
+    <com.m0narx.tweaks.colorpicker.ColorPickerPreference android:title="@string/notif_bgcolor" android:key="statusbar_bgcolor_pref" android:summary="@string/notif_bgcolor_summary" android:defaultValue="@integer/default_sysui_color" />
+    <com.htc.preference.HtcCheckBoxPreference android:title="@string/statusbar_custombg" android:key="statusbar_custombg" android:summary="@string/statusbar_custombg_summary" />
+    <com.htc.preference.HtcCheckBoxPreference android:title="@string/block_pulldown" android:key="block_pulldown" android:summary="@string/block_pulldown_summary" />
+    <com.htc.preference.HtcPreferenceCategory android:title="@string/recentapps_dialog_tweaks" />
+    <com.htc.preference.HtcListPreference android:entries="@array/recentapps_style_entries" android:title="@string/recentapps_style" android:key="recentapps_style" android:summary="@string/recentapps_style_summary" android:defaultValue="1" android:entryValues="@array/recentapps_style_values" />
+</com.htc.preference.HtcPreferenceScreen>

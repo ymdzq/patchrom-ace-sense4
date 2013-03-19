@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.htc.preference.HtcPreferenceScreen android:title="@string/autobacklight_brightness" android:key="autobrightness_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <com.htc.preference.HtcListPreference android:entries="@array/autobrightness_entries" android:title="@string/autobacklight_brightness_mode" android:key="brightness_presets" android:summary="@string/autobacklight_brightness_mode_summary" android:defaultValue="0" android:entryValues="@array/autobrightness_values" />
+    <com.htc.preference.HtcPreferenceCategory android:title="@string/manual_autobrightness_sliders" android:key="sliders">
+        <com.htc.preference.HtcPreference android:title="@string/current_sensor_value" android:key="info" />
+        <com.m0narx.tweaks.widgets.SeekBarPreference android:max="235" android:key="level_1" android:defaultValue="63" />
+        <com.m0narx.tweaks.widgets.SeekBarPreference android:max="235" android:key="level_2" android:defaultValue="63" />
+        <com.m0narx.tweaks.widgets.SeekBarPreference android:max="235" android:key="level_3" android:defaultValue="63" />
+        <com.m0narx.tweaks.widgets.SeekBarPreference android:max="235" android:key="level_4" android:defaultValue="96" />
+        <com.m0narx.tweaks.widgets.SeekBarPreference android:max="235" android:key="level_5" android:defaultValue="130" />
+        <com.m0narx.tweaks.widgets.SeekBarPreference android:max="235" android:key="level_6" android:defaultValue="143" />
+        <com.m0narx.tweaks.widgets.SeekBarPreference android:max="235" android:key="level_7" android:defaultValue="171" />
+        <com.m0narx.tweaks.widgets.SeekBarPreference android:max="235" android:key="level_8" android:defaultValue="199" />
+        <com.m0narx.tweaks.widgets.SeekBarPreference android:max="235" android:key="level_9" android:defaultValue="227" />
+        <com.m0narx.tweaks.widgets.SeekBarPreference android:max="235" android:key="level_10" android:defaultValue="255" />
+    </com.htc.preference.HtcPreferenceCategory>
+</com.htc.preference.HtcPreferenceScreen>

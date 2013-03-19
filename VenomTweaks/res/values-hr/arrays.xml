@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clock_widget_apps">
+        <item>Prilagođena aplikacija za sat</item>
+        <item>Prilagođena aplikacija za vrijeme</item>
+    </string-array>
+    <string-array name="keyboard_arrows_entries">
+        <item>Prikaži</item>
+        <item>Sakrij samo u portretu</item>
+        <item>Sakrij</item>
+    </string-array>
+    <string-array name="unlock_buttons_entries">
+        <item>Početna</item>
+        <item>Meni</item>
+        <item>Natrag</item>
+        <item>Pretraga</item>
+    </string-array>
+    <string-array name="extended_statusbartext_entries">
+        <item>Isključeno</item>
+        <item>WiFi status</item>
+        <item>Baterija status</item>
+        <item>RAM info</item>
+        <item>SDCard prostor</item>
+        <item>CPU profil</item>
+        <item>CPU uporaba</item>
+        <item>CPU frekvencija</item>
+    </string-array>
+    <string-array name="use_media_entries">
+        <item>Ne koristi</item>
+        <item>Pret./Slje. Pjesma</item>
+        <item>Sviraj-Pauza/Slje. Pjesma</item>
+    </string-array>
+    <string-array name="h_icon_replace_entries">
+        <item>H</item>
+        <item>4G</item>
+        <item>4G LTE</item>
+        <item>LTE</item>
+        <item>3G</item>
+        <item>3G+</item>
+        <item>H+</item>
+    </string-array>
+    <string-array name="read_ahead_entries">
+        <item>128</item>
+        <item>256</item>
+        <item>512</item>
+        <item>1024</item>
+        <item>2048</item>
+        <item>3072</item>
+        <item>4096</item>
+        <item>5120</item>
+        <item>6144</item>
+    </string-array>
+    <string-array name="pref_clock_entries">
+        <item>Sakrij</item>
+        <item>Normalno</item>
+        <item>Centar</item>
+    </string-array>
+    <string-array name="pref_rosie_smooth_entries">
+        <item>Normalno</item>
+        <item>Superglatko</item>
+        <item>Ultraglatko</item>
+    </string-array>
+    <string-array name="pref_volume_entries">
+        <item>Normalno</item>
+        <item>Fino</item>
+        <item>Finije</item>
+    </string-array>
+    <string-array name="battery_text_display_entries">
+        <item>Normalno %</item>
+        <item>Malo %</item>
+        <item>Bez %</item>
+        <item>Sakrij tekst</item>
+    </string-array>
+    <string-array name="pref_overscroll_effect_entries">
+        <item>Ništa</item>
+        <item>Sjaj ruba</item>
+        <item>Sjaj i odskok</item>
+        <item>Odskok</item>
+    </string-array>
+    <string-array name="quick_settings_entries">
+        <item>Tweaks</item>
+        <item>Glasnoća</item>
+        <item>Automatsko gašenje zaslona</item>
+        <item>Automatsko osvjetljenje</item>
+        <item>Bljeskalica</item>
+        <item>Rotacija</item>
+        <item>Način rada za zrakoplov</item>
+        <item>WiFi</item>
+        <item>Mobilne mreže</item>
+        <item>Network mode</item>
+        <item>WiFi Hotspot</item>
+        <item>Automatska sinkronizacija</item>
+        <item>Bluetooth</item>
+        <item>GPS</item>
+        <item>Tihi način</item>
+        <item>Vibracija</item>
+        <item>Wireless ADB</item>
+        <item>Upravitelj zadataka</item>
+        <item>Sony xLOUD</item>
+        <item>Ponovno pokretanje</item>
+        <item>Power Saver</item>
+    </string-array>
+    <string-array name="hide_lockscreen_date_entries">
+        <item>Sakrij datum</item>
+        <item>Sakrij vrijeme</item>
+        <item>Sakrij AM/PM</item>
+    </string-array>
+    <string-array name="hide_lockscreen_shortcuts_entries">
+        <item>Sakrij oznake</item>
+        <item>Sakrij balončiće</item>
+    </string-array>
+    <string-array name="hide_noti_entries">
+        <item>Alarm Ikona</item>
+        <item>GPS Ikona</item>
+        <item>Slušalice Ikona</item>
+        <item>Glasnoцa Ikona</item>
+        <item>WiFi Ikona</item>
+        <item>Bluetooth Ikona</item>
+        <item>ADB Ikona</item>
+    </string-array>
+    <string-array name="autobrightness_entries">
+        <item>Normalno</item>
+        <item>Tamnije</item>
+        <item>Najtamnjie</item>
+        <item>Ručno</item>
+    </string-array>
+    <string-array name="show_apm_items">
+        <item>Ponovno pokretanje</item>
+        <item>Snimka zaslona</item>
+        <item>Način rada za zrakoplov</item>
+        <item>Mobilna mreža</item>
+        <item>Kontrola zvuka</item>
+    </string-array>
+    <string-array name="recentapps_style_entries">
+        <item>Zadano (Sense 4)</item>
+        <item>Android 4.0</item>
+    </string-array>
+    <string-array name="pref_capacitive_backlight_entries">
+        <item>Zadano</item>
+        <item>Zatamni</item>
+        <item>Automatsko</item>
+        <item>Uvijek isključeno</item>
+        <item>Uvijek upaljeno, Full</item>
+        <item>Uvijek upaljeno, Zatamljeno</item>
+    </string-array>
+    <string-array name="gestures_entries">
+        <item>Ništa</item>
+        <item>Prilagođena aplikacija</item>
+        <item>Nedavne aplikacije</item>
+        <item>Idi na prethodnu aplikaciju</item>
+        <item>Idi na početnu</item>
+        <item>Prekini trenutnu aplikaciju</item>
+        <item>Sviraj/Pauza</item>
+        <item>Sljedeća pjesma</item>
+        <item>Prethodna pjesma</item>
+        <item>Proširi traku obavjesti</item>
+    </string-array>
+    <string-array name="longpress_back_entries">
+        <item>Ništa</item>
+        <item>Prislino zaustavi trenutnu aplikaciju</item>
+        <item>Nedavne aplikacije</item>
+        <item>Snimka zaslona</item>
+        <item>Prilagođena aplikacija</item>
+    </string-array>
+    <string-array name="longpress_home_entries">
+        <item>Nedavne aplikacije</item>
+        <item>Snimka zaslona</item>
+        <item>Prilagođena aplikacija</item>
+    </string-array>
+    <string-array name="longpress_menu_entries">
+        <item>Ništa</item>
+        <item>Nedavne aplikacije</item>
+        <item>Snimka zaslona</item>
+        <item>Otvori traku obavjesti</item>
+        <item>Prilagođena aplikacija</item>
+    </string-array>
+    <string-array name="longpress_search_entries">
+        <item>Zadano</item>
+        <item>Nedavne aplikacije</item>
+        <item>Prilagođena aplikacija</item>
+    </string-array>
+</resources>

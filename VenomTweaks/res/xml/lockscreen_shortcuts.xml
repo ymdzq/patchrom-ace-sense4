@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.htc.preference.HtcPreferenceScreen android:title="@string/gestures" android:key="misc_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <com.htc.preference.HtcCheckBoxPreference android:title="@string/lockscreen_hide_labels" android:key="lockscreen_hide_labels" android:summary="@string/lockscreen_hide_labels_summary" />
+    <com.htc.preference.HtcListPreference android:entries="@array/lockscreen_ringmode_entries" android:title="@string/lockscreen_ringmode" android:key="lockscreen_ringmode" android:summary="@string/lockscreen_ringmode_summary" android:defaultValue="0" android:entryValues="@array/lockscreen_ringmode_values" />
+    <com.htc.preference.HtcCheckBoxPreference android:title="@string/custom_shortcuts" android:key="custom_shortcuts" android:summary="@string/custom_shortcuts_summary" />
+    <com.htc.preference.HtcPreferenceCategory android:title="@string/apps" android:key="apps">
+        <com.htc.preference.HtcCheckBoxPreference android:title="@string/shortcut_1" android:key="shortcut_0" />
+        <com.htc.preference.HtcCheckBoxPreference android:title="@string/shortcut_2" android:key="shortcut_1" />
+        <com.htc.preference.HtcCheckBoxPreference android:title="@string/shortcut_3" android:key="shortcut_2" />
+        <com.htc.preference.HtcCheckBoxPreference android:title="@string/shortcut_4" android:key="shortcut_3" />
+    </com.htc.preference.HtcPreferenceCategory>
+</com.htc.preference.HtcPreferenceScreen>

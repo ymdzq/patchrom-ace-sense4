@@ -1,0 +1,6 @@
+TaskID : 284072
+Project : PROTO_U_ICS_40A
+SKU : HTC Europe[401]
+ROM Ver : 1.14.401.1
+Customization Id : 429725
+RCMS Id : 502

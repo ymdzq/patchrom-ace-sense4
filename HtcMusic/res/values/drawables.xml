@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="icon_btn_lyrics_dark">@drawable/icon_btn_genres_dark</drawable>
+    <item type="drawable" name="music_translucent_background">#b2000000</item>
+    <item type="drawable" name="red">#77ff0000</item>
+    <item type="drawable" name="blue">#770000ff</item>
+    <item type="drawable" name="green">#7700ff00</item>
+    <item type="drawable" name="yellow">#77ffff00</item>
+    <item type="drawable" name="screen_background_black">#ff000000</item>
+    <item type="drawable" name="translucent_background">#e0000000</item>
+    <item type="drawable" name="transparent_background">#00000000</item>
+    <drawable name="icon_sina_music_logo">@drawable/automotive_icon_btn_beats_logo_l</drawable>
+    <drawable name="icon_launcher_friends_collection">@drawable/music_detail_song_nocover</drawable>
+</resources>

@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lockscreen_ringmode_entries">
+        <item>Default</item>
+        <item>Arc shortcuts</item>
+        <item>Left ring</item>
+        <item>Right ring</item>
+    </string-array>
+    <string-array name="lockscreen_ringmode_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="longpress_buttons_entries">
+        <item>None</item>
+        <item>Recent apps</item>
+        <item>Reboot dialog</item>
+        <item>Power dialog</item>
+        <item>Search action</item>
+        <item>Expand status bar</item>
+        <item>Kill current app</item>
+        <item>Take screenshot</item>
+        <item>Toggle flashlight</item>
+        <item>Music - Play/Pause</item>
+        <item>Music - Prev</item>
+        <item>Music - Next</item>
+        <item>Screen off</item>
+        <item>Custom app</item>
+    </string-array>
+    <string-array name="longpress_buttons_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>13</item>
+        <item>3</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>5</item>
+        <item>11</item>
+        <item>10</item>
+        <item>9</item>
+        <item>12</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="animations_entries">
+        <item>Standard</item>
+        <item>JellyBean</item>
+        <item>Flip</item>
+        <item>Fold</item>
+        <item>FlyIn</item>
+    </string-array>
+    <string-array name="animations_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="shortpress_buttons_entries">
+        <item>None</item>
+        <item>Recent apps</item>
+        <item>Reboot dialog</item>
+        <item>Power dialog</item>
+        <item>Expand status bar</item>
+        <item>Kill current app</item>
+        <item>Take screenshot</item>
+        <item>Toggle flashlight</item>
+        <item>Music - Play/Pause</item>
+        <item>Music - Prev</item>
+        <item>Music - Next</item>
+        <item>Screen off</item>
+        <item>Custom app</item>
+    </string-array>
+    <string-array name="shortpress_buttons_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>13</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>5</item>
+        <item>11</item>
+        <item>10</item>
+        <item>9</item>
+        <item>12</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="longress_home_ls_entries">
+        <item>None</item>
+        <item>Toggle flashlight</item>
+        <item>Custom app</item>
+    </string-array>
+    <string-array name="longress_home_ls_values">
+        <item>0</item>
+        <item>5</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="longpress_timeout_entries">
+        <item>Very short</item>
+        <item>Short</item>
+        <item>Normal</item>
+        <item>Long</item>
+        <item>Very long</item>
+    </string-array>
+    <string-array name="longpress_timeout_values">
+        <item>100</item>
+        <item>200</item>
+        <item>350</item>
+        <item>500</item>
+        <item>1000</item>
+    </string-array>
+    <string-array name="sweep_wake_entries">
+        <item>Enable</item>
+        <item>Enable(no buttons backlight)</item>
+        <item>Disable</item>
+    </string-array>
+    <string-array name="sweep_wake_values">
+        <item>1</item>
+        <item>2</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="lockscreen_orientation_entries">
+        <item>Portrait only</item>
+        <item>Landscape only</item>
+        <item>Automatic</item>
+    </string-array>
+    <string-array name="lockscreen_orientation_values">
+        <item>1</item>
+        <item>0</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="clock_widget_apps">
+        <item>Custom clock app</item>
+        <item>Custom weather app</item>
+    </string-array>
+    <string-array name="keyboard_arrows_entries">
+        <item>Show</item>
+        <item>Hide only in portrait</item>
+        <item>Hide</item>
+    </string-array>
+    <string-array name="keyboard_arrows_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="unlock_buttons_entries">
+        <item>Home</item>
+        <item>Menu</item>
+        <item>Back</item>
+        <item>Search</item>
+    </string-array>
+    <string-array name="extended_statusbartext_entries">
+        <item>Disabled</item>
+        <item>WiFi status</item>
+        <item>Battery status</item>
+        <item>RAM info</item>
+        <item>SDCard space</item>
+        <item>CPU profile</item>
+        <item>CPU usage</item>
+        <item>CPU frequency</item>
+    </string-array>
+    <string-array name="extended_statusbartext_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+    <string-array name="use_media_entries">
+        <item>Dont use</item>
+        <item>Prev/Next Track</item>
+        <item>Play-Pause/Next Track</item>
+    </string-array>
+    <string-array name="use_media_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="h_icon_replace_entries">
+        <item>H</item>
+        <item>4G</item>
+        <item>4G LTE</item>
+        <item>LTE</item>
+        <item>3G</item>
+        <item>3G+</item>
+        <item>H+</item>
+    </string-array>
+    <string-array name="h_icon_replace_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+    <string-array name="read_ahead_entries">
+        <item>128</item>
+        <item>256</item>
+        <item>512</item>
+        <item>1024</item>
+        <item>2048</item>
+        <item>3072</item>
+        <item>4096</item>
+        <item>5120</item>
+        <item>6144</item>
+    </string-array>
+    <string-array name="pref_clock_entries">
+        <item>Hide</item>
+        <item>Normal</item>
+        <item>Center</item>
+    </string-array>
+    <string-array name="pref_clock_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="pref_rosie_smooth_entries">
+        <item>Normal</item>
+        <item>Supersmooth</item>
+        <item>Ultrasmooth</item>
+    </string-array>
+    <string-array name="pref_rosie_smooth_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="pref_volume_entries">
+        <item>Normal</item>
+        <item>Fine</item>
+        <item>Finest</item>
+    </string-array>
+    <string-array name="pref_volume_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="pref_overscrollcolor_entries">
+        <item>None</item>
+        <item>Green</item>
+        <item>Red</item>
+        <item>Blue</item>
+        <item>Yellow</item>
+        <item>Orange</item>
+        <item>Cyan</item>
+        <item>Pink</item>
+        <item>Purple</item>
+        <item>Black</item>
+        <item>Grey</item>
+        <item>White</item>
+    </string-array>
+    <string-array name="pref_overscrollcolor_values">
+        <item>-1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="battery_text_display_entries">
+        <item>Regular %</item>
+        <item>Small %</item>
+        <item>No %</item>
+        <item>Hide Text</item>
+    </string-array>
+    <string-array name="battery_text_display_values">
+        <item>1</item>
+        <item>3</item>
+        <item>4</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="pref_overscroll_effect_entries">
+        <item>None</item>
+        <item>Edge Glow</item>
+        <item>Bounce and Glow</item>
+        <item>Bounce</item>
+    </string-array>
+    <string-array name="pref_overscroll_effect_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="quick_settings_entries">
+        <item>Tweaks</item>
+        <item>Volume</item>
+        <item>Auto screen off</item>
+        <item>Auto Brightness</item>
+        <item>Flashlight</item>
+        <item>Rotation</item>
+        <item>Airplane Mode</item>
+        <item>WiFi</item>
+        <item>Mobile Network</item>
+        <item>Network mode</item>
+        <item>WiFi Hotspot</item>
+        <item>AutoSync</item>
+        <item>Bluetooth</item>
+        <item>GPS</item>
+        <item>Silent Mode</item>
+        <item>Vibrate Mode</item>
+        <item>Wireless ADB</item>
+        <item>Sony xLOUD</item>
+        <item>Power Saver</item>
+        <item>Reboot</item>
+        <item>Taskmanager</item>
+    </string-array>
+    <string-array name="quick_settings_ids">
+        <item>Tweaks</item>
+        <item>Volume</item>
+        <item>ScreenOn</item>
+        <item>Brightness</item>
+        <item>Flashlight</item>
+        <item>Rotation</item>
+        <item>Airplane</item>
+        <item>Wifi</item>
+        <item>MobileNetwork</item>
+        <item>NetworkMode</item>
+        <item>HotSpot</item>
+        <item>AutoSync</item>
+        <item>Bluetooth</item>
+        <item>GPS</item>
+        <item>SilentMode</item>
+        <item>VibrationMode</item>
+        <item>ADB</item>
+        <item>XLoud</item>
+        <item>PowerSaver</item>
+        <item>Reboot</item>
+        <item>TaskManager</item>
+    </string-array>
+    <string-array name="hide_lockscreen_date_entries">
+        <item>Hide date</item>
+        <item>Hide time</item>
+        <item>Hide AM/PM</item>
+    </string-array>
+    <string-array name="hide_lockscreen_shortcuts_entries">
+        <item>Hide labels</item>
+        <item>Hide bubles</item>
+    </string-array>
+    <string-array name="hide_noti_entries">
+        <item>Alarm Icon</item>
+        <item>GPS Icon</item>
+        <item>Headset Icon</item>
+        <item>Volume Icons</item>
+        <item>WiFi Icon</item>
+        <item>Bluetooth Icon</item>
+        <item>ADB Icon</item>
+    </string-array>
+    <string-array name="autobrightness_entries">
+        <item>Normal</item>
+        <item>Lower</item>
+        <item>Lowest</item>
+        <item>Manual</item>
+    </string-array>
+    <string-array name="autobrightness_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="show_apm_items">
+        <item>Restart</item>
+        <item>Screenshot</item>
+        <item>Airplane mode</item>
+        <item>Mobile data</item>
+        <item>Sound control</item>
+    </string-array>
+    <string-array name="recentapps_style_entries">
+        <item>Default</item>
+        <item>Android 4.0</item>
+    </string-array>
+    <string-array name="recentapps_style_values">
+        <item>1</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="pref_capacitive_backlight_entries">
+        <item>Default</item>
+        <item>Dim</item>
+        <item>Automatic</item>
+        <item>Always off</item>
+        <item>Always on, Full</item>
+        <item>Always on, Dim</item>
+    </string-array>
+    <string-array name="capacitive_backlight_values">
+        <item></item>
+        <item>100,100,100,100,-1,0,0,0,0,0</item>
+        <item>255,255,200,150,150,100,100,100,-1,0</item>
+        <item>-1,0,0,0,0,0,0,0,0,0</item>
+        <item>255,255,255,255,255,255,255,255,255,-1</item>
+        <item>100,100,100,100,100,100,100,100,100,-1</item>
+    </string-array>
+    <string-array name="gestures_entries">
+        <item>None</item>
+        <item>Custom app</item>
+        <item>Recent apps</item>
+        <item>Go to prev app</item>
+        <item>Go to home</item>
+        <item>Kill current app</item>
+        <item>Play/Pause</item>
+        <item>Next track</item>
+        <item>Prev track</item>
+        <item>Expand notification area</item>
+    </string-array>
+    <string-array name="gestures_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+    <string-array name="gesture_button_entries">
+        <item>None</item>
+        <item>Custom app</item>
+        <item>Recent apps</item>
+        <item>Play/Pause</item>
+        <item>Next track</item>
+        <item>Prev track</item>
+        <item>Expand notification area</item>
+    </string-array>
+    <string-array name="gesture_button_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+    <string-array name="minfree_entries">
+        <item>Stock</item>
+        <item>Multitasking</item>
+        <item>Multitasking Xtreme</item>
+        <item>Multitasking Ultimate</item>
+        <item>Manual</item>
+    </string-array>
+    <string-array name="minfree_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="anim_values">
+        <item>0</item>
+        <item>1</item>
+        <item>3</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="anim_strings">
+        <item>Normal</item>
+        <item>Accelerate and Decelerate</item>
+        <item>Decelerate</item>
+        <item>Accelerate</item>
+    </string-array>
+    <string-array name="pulse_values">
+        <item>1</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="pulse_strings">
+        <item>Pulse Up and Down</item>
+        <item>Standard</item>
+    </string-array>
+</resources>

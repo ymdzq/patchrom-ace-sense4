@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.htc.preference.HtcPreferenceScreen android:title="accessibility_settings_title" android:key="lockscreen_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <com.htc.preference.HtcPreferenceCategory android:title="@string/appearance">
+        <com.htc.preference.HtcCheckBoxPreference android:title="@string/aosp_lockscreen" android:key="lockscreen_style" android:summary="@string/aosp_lockscreen_summary" />
+        <com.htc.preference.HtcCheckBoxPreference android:title="@string/aosp_call_unlock" android:key="aosp_call_unlock" android:summary="@string/aosp_call_unlock_summary" />
+        <com.htc.preference.HtcEditTextPreference android:title="@string/carrier_caption" android:key="lockscreen_caption" android:summary="@string/carrier_caption_summary" android:dialogTitle="@string/carrier_caption" />
+        <com.htc.preference.HtcCheckBoxPreference android:title="@string/lockscreen_hide_opname" android:key="lockscreen_hide_opname" android:summary="@string/lockscreen_hide_opname_summary" />
+        <com.htc.preference.HtcPreference android:title="@string/lockscreen_hide_datetime" android:key="lockscreen_hide_datetime" android:summary="@string/lockscreen_hide_datetime_summary" />
+        <com.htc.preference.HtcPreference android:title="@string/lockscreen_shortcuts" android:key="shortcuts" android:summary="@string/lockscreen_shortcuts_summary">
+            <intent android:targetPackage="com.m0narx.tweaks" android:action="android.intent.action.MAIN" android:targetClass="com.m0narx.tweaks.lockscreen_shortcuts" />
+        </com.htc.preference.HtcPreference>
+    </com.htc.preference.HtcPreferenceCategory>
+    <com.htc.preference.HtcPreferenceCategory android:title="@string/other">
+        <com.htc.preference.HtcCheckBoxPreference android:title="@string/disable_volkeys_on_ls" android:key="disable_volkeys_on_ls" android:summary="@string/disable_volkeys_on_ls_summary" />
+        <com.htc.preference.HtcListPreference android:entries="@array/use_media_entries" android:title="@string/use_media" android:key="use_media" android:summary="@string/use_media_summary" android:defaultValue="0" android:entryValues="@array/use_media_values" />
+        <com.htc.preference.HtcListPreference android:entries="@array/sweep_wake_entries" android:title="@string/sweep_wake" android:key="sweep_wake" android:summary="@string/sweep_wake_summary" android:defaultValue="0" android:entryValues="@array/sweep_wake_values" />
+        <com.htc.preference.HtcCheckBoxPreference android:title="@string/unlock_slide" android:key="unlock_slide" android:summary="@string/unlock_slide_summary" />
+        <com.htc.preference.HtcPreference android:title="@string/unlock_buttons" android:key="unlock_buttons" android:summary="@string/unlock_buttons_summary" />
+        <com.htc.preference.HtcListPreference android:entries="@array/longress_home_ls_entries" android:title="@string/longress_home_ls" android:key="longress_home_ls" android:summary="@string/longress_home_ls_summary" android:defaultValue="1" android:entryValues="@array/longress_home_ls_values" />
+    </com.htc.preference.HtcPreferenceCategory>
+</com.htc.preference.HtcPreferenceScreen>

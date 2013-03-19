@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.htc.preference.HtcPreferenceScreen android:title="@string/battery_options" android:key="battery_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <com.htc.preference.HtcPreference android:title="@string/systemui_theme_pack" android:key="apply_theme" android:summary="@string/systemui_theme_pack_summary" />
+    <com.htc.preference.HtcPreferenceCategory android:title="@string/icons_theme">
+        <com.htc.preference.HtcPreference android:title="@string/battery_icon" android:key="battery_icon" />
+        <com.htc.preference.HtcPreference android:title="@string/wifi_icon" android:key="wifi_icon" />
+        <com.htc.preference.HtcPreference android:title="@string/signal_icon" android:key="signal_icon" />
+        <com.htc.preference.HtcPreference android:title="@string/gps_icon" android:key="gps_icon" />
+        <com.htc.preference.HtcPreference android:title="@string/data_icon" android:key="data_icon" />
+        <com.htc.preference.HtcPreference android:title="@string/bluetooth_icon" android:key="bluetooth_icon" />
+        <com.htc.preference.HtcPreference android:title="@string/alarm_icon" android:key="alarm_icon" />
+        <com.htc.preference.HtcPreference android:title="@string/headset_icon" android:key="headset_icon" />
+        <com.htc.preference.HtcPreference android:title="@string/volume_icon" android:key="volume_icon" />
+        <com.htc.preference.HtcPreference android:title="@string/sync_icon" android:key="sync_icon" />
+        <com.htc.preference.HtcPreference android:title="@string/eqs_icons" android:key="eqs_icons" />
+        <com.htc.preference.HtcPreference android:title="@string/heqs_icons" android:key="heqs_icons" />
+    </com.htc.preference.HtcPreferenceCategory>
+</com.htc.preference.HtcPreferenceScreen>

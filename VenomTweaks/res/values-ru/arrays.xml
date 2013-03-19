@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lockscreen_ringmode_entries">
+        <item>Стандарт</item>
+        <item>Ярлыки дугой</item>
+        <item>Кольцо слева</item>
+        <item>Кольцо справа</item>
+    </string-array>
+    <string-array name="lockscreen_ringmode_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="longpress_buttons_entries">
+        <item>Без действия</item>
+        <item>Недавние приложения</item>
+        <item>Диалог перезагрузки</item>
+        <item>Диалог выключения</item>
+        <item>Поиск</item>
+        <item>Открыть область уведомлений</item>
+        <item>Убить текущее приложение</item>
+        <item>Снимок экрана</item>
+        <item>Фонарик</item>
+        <item>Музыка - вспр./стоп</item>
+        <item>Музыка - пред. песня</item>
+        <item>Музыка - след. песня</item>
+        <item>Выключить экран</item>
+        <item>Запустить приложение</item>
+    </string-array>
+    <string-array name="animations_entries">
+        <item>Стандартная</item>
+        <item>JellyBean</item>
+        <item>Flip</item>
+        <item>Fold</item>
+        <item>FlyIn</item>
+    </string-array>
+    <string-array name="shortpress_buttons_entries">
+        <item>По умолчанию</item>
+        <item>Недавние приложения</item>
+        <item>Диалог перезагрузки</item>
+        <item>Диалог выключения</item>
+        <item>Открыть область уведомлений</item>
+        <item>Убить текущее приложение</item>
+        <item>Снимок экрана</item>
+        <item>Фонарик</item>
+        <item>Музыка - вспр./стоп</item>
+        <item>Музыка - пред. песня</item>
+        <item>Музыка - след. песня</item>
+        <item>Выключить экран</item>
+        <item>Запустить приложение</item>
+    </string-array>
+    <string-array name="longress_home_ls_entries">
+        <item>Без действия</item>
+        <item>Фонарик</item>
+        <item>Запустить приложение</item>
+    </string-array>
+    <string-array name="longpress_timeout_entries">
+        <item>Очень короткая</item>
+        <item>Короткая</item>
+        <item>Обычная</item>
+        <item>Длинная</item>
+        <item>Очень длинная</item>
+    </string-array>
+    <string-array name="sweep_wake_entries">
+        <item>Включить</item>
+        <item>Включить(без подстветки кнопок)</item>
+        <item>Выключить</item>
+    </string-array>
+    <string-array name="lockscreen_orientation_entries">
+        <item>Портретная</item>
+        <item>Альбомная</item>
+        <item>Автоматическая</item>
+    </string-array>
+    <string-array name="clock_widget_apps">
+        <item>Свое приложение часов</item>
+        <item>Свое приложение погоды</item>
+    </string-array>
+    <string-array name="keyboard_arrows_entries">
+        <item>Показывать</item>
+        <item>Скрыть в портретном режиме</item>
+        <item>Скрыть</item>
+    </string-array>
+    <string-array name="unlock_buttons_entries">
+        <item>Домой</item>
+        <item>Меню</item>
+        <item>Назад</item>
+        <item>Поиск</item>
+    </string-array>
+    <string-array name="extended_statusbartext_entries">
+        <item>Не использовать</item>
+        <item>Статус WiFi</item>
+        <item>Заряд аккумулятора</item>
+        <item>Информация о памяти</item>
+        <item>Место на карте памяти</item>
+        <item>Профиль процессора</item>
+        <item>Загрузка процессора</item>
+        <item>Частота процессра</item>
+    </string-array>
+    <string-array name="use_media_entries">
+        <item>Не использовать</item>
+        <item>Пред./След. песня</item>
+        <item>Пауза-Воспр./След. песня</item>
+    </string-array>
+    <string-array name="pref_clock_entries">
+        <item>Скрыть</item>
+        <item>Обычные</item>
+        <item>По центру</item>
+    </string-array>
+    <string-array name="pref_rosie_smooth_entries">
+        <item>Стандарт</item>
+        <item>Смешенный 2D/3D</item>
+        <item>Только 2D</item>
+    </string-array>
+    <string-array name="pref_volume_entries">
+        <item>Стандартный</item>
+        <item>Увеличенный</item>
+        <item>Самый большой</item>
+    </string-array>
+    <string-array name="pref_overscrollcolor_entries">
+        <item>Нет</item>
+        <item>Зеленый</item>
+        <item>Красный</item>
+        <item>Синий</item>
+        <item>Желтый</item>
+        <item>Оранжевый</item>
+        <item>Голубой</item>
+        <item>Розовый</item>
+        <item>Фиолетовый</item>
+        <item>Черный</item>
+        <item>Серый</item>
+        <item>Белый</item>
+    </string-array>
+    <string-array name="battery_text_display_entries">
+        <item>Обычный %</item>
+        <item>Маленький %</item>
+        <item>Без %</item>
+        <item>Скрыть</item>
+    </string-array>
+    <string-array name="quick_settings_entries">
+        <item>Tweaks</item>
+        <item>Громкость</item>
+        <item>Отключение экрана</item>
+        <item>Автоматическая яркость</item>
+        <item>Фонарик</item>
+        <item>Автоповорот</item>
+        <item>Режим в самолете</item>
+        <item>WiFi</item>
+        <item>Мобильный интернет</item>
+        <item>Режим сети</item>
+        <item>WiFi роутер</item>
+        <item>Автосинхронизация</item>
+        <item>Bluetooth</item>
+        <item>GPS</item>
+        <item>Беззвучный режим</item>
+        <item>Режим вибрации</item>
+        <item>Беcпроводной ADB</item>
+        <item>Диспетчер задач</item>
+        <item>Улучшение звука xLOUD</item>
+        <item>Перезагрузка</item>
+        <item>Энергосбережение</item>
+    </string-array>
+    <string-array name="hide_lockscreen_date_entries">
+        <item>Скрыть дату</item>
+        <item>Скрыть время</item>
+        <item>Скрыть AM/PM</item>
+    </string-array>
+    <string-array name="hide_lockscreen_shortcuts_entries">
+        <item>Скрыть заголовки</item>
+        <item>Скрыть фон</item>
+    </string-array>
+    <string-array name="hide_noti_entries">
+        <item>Будильник</item>
+        <item>GPS</item>
+        <item>Наушники</item>
+        <item>Звук</item>
+        <item>WiFi</item>
+        <item>Bluetooth</item>
+        <item>ADB</item>
+    </string-array>
+    <string-array name="autobrightness_entries">
+        <item>Стандарт</item>
+        <item>Пониженная</item>
+        <item>Самая низкая</item>
+        <item>Ручная настройка</item>
+    </string-array>
+    <string-array name="show_apm_items">
+        <item>Перезагрузка</item>
+        <item>Снимок экрана</item>
+        <item>Режим в самолете</item>
+        <item>Мобильный интернет</item>
+        <item>Управление звуком</item>
+    </string-array>
+    <string-array name="recentapps_style_entries">
+        <item>По умолчанию</item>
+        <item>Android 4.0</item>
+    </string-array>
+    <string-array name="pref_capacitive_backlight_entries">
+        <item>По умолчанию</item>
+        <item>Пониженная</item>
+        <item>Автоматическая</item>
+        <item>Всегда выключена</item>
+        <item>Всегда включена ярко</item>
+        <item>Всегда включена не ярко</item>
+    </string-array>
+    <string-array name="gestures_entries">
+        <item>Нет</item>
+        <item>Запустить приложение</item>
+        <item>Недавние приложения</item>
+        <item>Предыдущее приложение</item>
+        <item>Домашний экран</item>
+        <item>Закрыть текущее приложение</item>
+        <item>Воспроизведение/Пауза</item>
+        <item>След. песня</item>
+        <item>Пред. песня</item>
+        <item>Открыть область уведомлений</item>
+    </string-array>
+    <string-array name="gesture_button_entries">
+        <item>Нет</item>
+        <item>Запустить приложение</item>
+        <item>Недавние приложения</item>
+        <item>Воспроизведение/Пауза</item>
+        <item>След. песня</item>
+        <item>Пред. песня</item>
+        <item>Открыть область уведомлений</item>
+    </string-array>
+    <string-array name="minfree_entries">
+        <item>Встроенный</item>
+        <item>Многозадачность</item>
+        <item>Многозадачность Xtreme</item>
+        <item>Многозадачность Ultimate</item>
+        <item>Ручная настройка</item>
+    </string-array>
+    <string-array name="anim_strings">
+        <item>Обычный</item>
+        <item>Ускорение и замедление</item>
+        <item>Ускорение</item>
+        <item>Замедление</item>
+    </string-array>
+    <string-array name="pulse_strings">
+        <item>В обе стороны</item>
+        <item>Стандартная</item>
+    </string-array>
+    <string-array name="am_pm_entries">
+        <item>Показать AM/PM</item>
+        <item>Маленькие AM/PM</item>
+        <item>Скрыть AM/PM</item>
+    </string-array>
+</resources>

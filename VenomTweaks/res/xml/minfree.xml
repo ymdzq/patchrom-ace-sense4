@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.htc.preference.HtcPreferenceScreen android:title="@string/minfree" android:key="minfree_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <com.htc.preference.HtcListPreference android:entries="@array/minfree_entries" android:title="@string/minfree_mode" android:key="minfree_presets" android:summary="@string/minfree_mode_summary" android:defaultValue="0" android:entryValues="@array/minfree_values" />
+    <com.htc.preference.HtcPreferenceCategory android:title="@string/minfree_sliders_text" android:key="minfree_sliders">
+        <com.m0narx.tweaks.widgets.SeekBarPreference android:max="64" android:title="@string/minfree_slider_1" android:key="value_1" />
+        <com.m0narx.tweaks.widgets.SeekBarPreference android:max="64" android:title="@string/minfree_slider_2" android:key="value_2" />
+        <com.m0narx.tweaks.widgets.SeekBarPreference android:max="64" android:title="@string/minfree_slider_3" android:key="value_3" />
+        <com.m0narx.tweaks.widgets.SeekBarPreference android:max="64" android:title="@string/minfree_slider_4" android:key="value_4" />
+        <com.m0narx.tweaks.widgets.SeekBarPreference android:max="64" android:title="@string/minfree_slider_5" android:key="value_5" />
+        <com.m0narx.tweaks.widgets.SeekBarPreference android:max="64" android:title="@string/minfree_slider_6" android:key="value_6" />
+    </com.htc.preference.HtcPreferenceCategory>
+</com.htc.preference.HtcPreferenceScreen>

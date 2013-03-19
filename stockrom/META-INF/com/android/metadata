@@ -1,0 +1,3 @@
+post-build=htc_asia/htc_ace/ace:4.0.4/IML74K/65416.2:user/release-keys
+post-timestamp=1343723799
+pre-device=ace

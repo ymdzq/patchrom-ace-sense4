@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="actionbar_height">50.0dip</dimen>
+    <dimen name="list_primary_m">26.0px</dimen>
+    <dimen name="pref_margin_left">18.0px</dimen>
+</resources>

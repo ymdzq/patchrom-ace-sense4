@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lockscreen_orientation_entries">
+        <item>Portrait seulement</item>
+        <item>Paysage seulement</item>
+        <item>Automatique</item>
+    </string-array>
+    <string-array name="clock_widget_apps">
+        <item>Appli horloge personnalisée</item>
+        <item>Appli météo personnalisée</item>
+    </string-array>
+    <string-array name="keyboard_arrows_entries">
+        <item>Afficher</item>
+        <item>Masquer seulement en portrait</item>
+        <item>Masquer</item>
+    </string-array>
+    <string-array name="unlock_buttons_entries">
+        <item>Accueil</item>
+        <item>Menu</item>
+        <item>Retour</item>
+        <item>Recherche</item>
+    </string-array>
+    <string-array name="extended_statusbartext_entries">
+        <item>Désactivé</item>
+        <item>État WiFi</item>
+        <item>État Batterie</item>
+        <item>Info RAM</item>
+        <item>Info carte SD</item>
+        <item>Profil CPU</item>
+        <item>Utilisation CPU</item>
+        <item>Fréquence CPU</item>
+    </string-array>
+    <string-array name="use_media_entries">
+        <item>Désactivé</item>
+        <item>Piste Prec./Suiv.</item>
+        <item>Lecture-Pause/Piste Suiv.</item>
+    </string-array>
+    <string-array name="h_icon_replace_entries">
+        <item>H</item>
+        <item>4G</item>
+        <item>4G LTE</item>
+        <item>LTE</item>
+        <item>3G</item>
+        <item>3G+</item>
+        <item>H+</item>
+    </string-array>
+    <string-array name="pref_clock_entries">
+        <item>Masquée</item>
+        <item>Normale</item>
+        <item>Centrée</item>
+    </string-array>
+    <string-array name="pref_rosie_smooth_entries">
+        <item>Normal</item>
+        <item>Superfluide</item>
+        <item>Ultrafluide</item>
+    </string-array>
+    <string-array name="pref_volume_entries">
+        <item>Normal</item>
+        <item>Fin</item>
+        <item>Très fin</item>
+    </string-array>
+    <string-array name="pref_overscrollcolor_entries">
+        <item>Aucun</item>
+        <item>Vert</item>
+        <item>Rouge</item>
+        <item>Bleu</item>
+        <item>Jaune</item>
+        <item>Orange</item>
+        <item>Cyan</item>
+        <item>Rose</item>
+        <item>Violet</item>
+        <item>Noir</item>
+        <item>Gris</item>
+        <item>Blanc</item>
+    </string-array>
+    <string-array name="battery_text_display_entries">
+        <item>% Normal</item>
+        <item>Petit %</item>
+        <item>Sans %</item>
+        <item>Masqué</item>
+    </string-array>
+    <string-array name="pref_overscroll_effect_entries">
+        <item>Aucun</item>
+        <item>Lueur</item>
+        <item>Rebond et lueur</item>
+        <item>Rebond</item>
+    </string-array>
+    <string-array name="quick_settings_entries">
+        <item>Tweaks</item>
+        <item>Volume</item>
+        <item>Arrêt veille auto</item>
+        <item>Luminosité auto</item>
+        <item>Lampe de poche</item>
+        <item>Rotation</item>
+        <item>Mode avion</item>
+        <item>WiFi</item>
+        <item>Réseau mobile</item>
+        <item>Network mode</item>
+        <item>"Point d'accès WiFi"</item>
+        <item>Syncro auto</item>
+        <item>Bluetooth</item>
+        <item>GPS</item>
+        <item>Mode silencieux</item>
+        <item>Mode vibreur</item>
+        <item>ADB sans fil</item>
+        <item>Gestionnaire de tâches</item>
+        <item>Sony xLOUD</item>
+        <item>Redémarrer</item>
+        <item>Power Saver</item>
+    </string-array>
+    <string-array name="hide_lockscreen_date_entries">
+        <item>Masquer la date</item>
+        <item>"Masquer l'horloge"</item>
+        <item>Masquer AM/PM</item>
+    </string-array>
+    <string-array name="hide_lockscreen_shortcuts_entries">
+        <item>Masquer les étiquettes</item>
+        <item>Masquer les Bulles</item>
+    </string-array>
+    <string-array name="hide_noti_entries">
+        <item>Icône Alarme</item>
+        <item>Icône GPS</item>
+        <item>Icône Casque</item>
+        <item>Icône Volume</item>
+        <item>Icône WiFi</item>
+        <item>Icône Bluetooth</item>
+        <item>Icône ADB</item>
+    </string-array>
+    <string-array name="autobrightness_entries">
+        <item>Normal</item>
+        <item>Bas</item>
+        <item>Très Bas</item>
+        <item>Manuel</item>
+    </string-array>
+    <string-array name="show_apm_items">
+        <item>Redémarrer</item>
+        <item>"Capture d'écran"</item>
+        <item>Mode avion</item>
+        <item>Réseau mobile</item>
+        <item>Profil sonore</item>
+    </string-array>
+    <string-array name="recentapps_style_entries">
+        <item>Par défaut</item>
+        <item>Android 4.0</item>
+    </string-array>
+    <string-array name="pref_capacitive_backlight_entries">
+        <item>Par défaut</item>
+        <item>Faible</item>
+        <item>Automatique</item>
+        <item>Éteint</item>
+        <item>Allumé, Normal</item>
+        <item>Allumé, Faible</item>
+    </string-array>
+    <string-array name="gestures_entries">
+        <item>Aucun</item>
+        <item>Appli personnalisée</item>
+        <item>Applis récentes</item>
+        <item>Appli précédente</item>
+        <item>"Aller à l'accueil"</item>
+        <item>"Arrêter l'appli en cours"</item>
+        <item>Lecture/Pause</item>
+        <item>Piste Suiv.</item>
+        <item>Piste Préc.</item>
+        <item>Ouvrir le Panneau Notifications</item>
+    </string-array>
+    <string-array name="longpress_back_entries">
+        <item>Aucun</item>
+        <item>"Arrêter l'appli en cours"</item>
+        <item>Applis récentes</item>
+        <item>"Capture d'écran"</item>
+        <item>Appli personnalisée</item>
+    </string-array>
+    <string-array name="longpress_home_entries">
+        <item>Applis récentes</item>
+        <item>"Capture d'écran"</item>
+        <item>Appli personnalisée</item>
+    </string-array>
+    <string-array name="longpress_menu_entries">
+        <item>Aucun</item>
+        <item>Applis récentes</item>
+        <item>"Capture d'écran"</item>
+        <item>Ouvrir le Panneau Notifications</item>
+        <item>Appli personnalisée</item>
+    </string-array>
+    <string-array name="longpress_search_entries">
+        <item>Par défaut</item>
+        <item>Applis récentes</item>
+        <item>Appli personnalisée</item>
+    </string-array>
+</resources>

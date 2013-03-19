@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.htc.preference.HtcPreferenceScreen android:title="@string/autobacklight_brightness" android:key="autobrightness_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <com.m0narx.tweaks.widgets.SeekBarPreference android:max="30" android:title="31 Hz" android:key="level_0" android:defaultValue="15" />
+    <com.m0narx.tweaks.widgets.SeekBarPreference android:max="30" android:title="62 Hz" android:key="level_1" android:defaultValue="15" />
+    <com.m0narx.tweaks.widgets.SeekBarPreference android:max="30" android:title="125 Hz" android:key="level_2" android:defaultValue="15" />
+    <com.m0narx.tweaks.widgets.SeekBarPreference android:max="30" android:title="250 Hz" android:key="level_3" android:defaultValue="15" />
+    <com.m0narx.tweaks.widgets.SeekBarPreference android:max="30" android:title="500 Hz" android:key="level_4" android:defaultValue="15" />
+    <com.m0narx.tweaks.widgets.SeekBarPreference android:max="30" android:title="1 kHz" android:key="level_5" android:defaultValue="15" />
+    <com.m0narx.tweaks.widgets.SeekBarPreference android:max="30" android:title="2 kHz" android:key="level_6" android:defaultValue="15" />
+    <com.m0narx.tweaks.widgets.SeekBarPreference android:max="30" android:title="4 kHz" android:key="level_7" android:defaultValue="15" />
+    <com.m0narx.tweaks.widgets.SeekBarPreference android:max="30" android:title="8 kHz" android:key="level_8" android:defaultValue="15" />
+    <com.m0narx.tweaks.widgets.SeekBarPreference android:max="30" android:title="16 kHz" android:key="level_9" android:defaultValue="15" />
+</com.htc.preference.HtcPreferenceScreen>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.htc.preference.HtcPreferenceScreen android:title="@string/autobacklight_brightness" android:key="cpu_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <com.htc.preference.HtcCheckBoxPreference android:title="@string/apply_on_boot" android:key="apply_on_boot" android:summary="@string/apply_on_boot_summary" />
+    <com.htc.preference.HtcPreferenceCategory android:title="@string/fs_settings" />
+    <com.htc.preference.HtcListPreference android:title="@string/cpu_shed" android:key="pref_cpu_shed" />
+    <com.m0narx.tweaks.widgets.SeekBarCPUPreference android:max="40" android:title="@string/buffer_size" android:key="buffer_size" android:defaultValue="1" />
+    <com.htc.preference.HtcPreferenceCategory android:title="@string/cpu_settings" />
+    <com.htc.preference.HtcListPreference android:title="@string/cpu_gov" android:key="pref_cpu_gov" />
+    <com.m0narx.tweaks.widgets.SeekBarCPUPreference android:max="40" android:title="@string/cpu_min" android:key="min_freq" android:defaultValue="1" />
+    <com.m0narx.tweaks.widgets.SeekBarCPUPreference android:max="40" android:title="@string/cpu_max" android:key="max_freq" android:defaultValue="1" />
+    <com.m0narx.tweaks.widgets.SeekBarCPUPreference android:max="40" android:title="@string/scroff_max_freq" android:key="scroff_max_freq" android:defaultValue="1" />
+    <com.m0narx.tweaks.widgets.SeekBarCPUPreference android:max="8" android:title="@string/global_uv" android:key="global_uv" android:defaultValue="4" />
+    <com.htc.preference.HtcCheckBoxPreference android:title="@string/separate_uv" android:key="separate_uv" android:summary="@string/separate_uv_summary" />
+    <com.htc.preference.HtcPreferenceCategory android:title="@string/cpu_volt" android:key="uv" />
+</com.htc.preference.HtcPreferenceScreen>

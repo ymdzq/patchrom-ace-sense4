@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lockscreen_ringmode_entries">
+        <item>默认</item>
+        <item>圆弧</item>
+        <item>左边</item>
+        <item>右边</item>
+    </string-array>
+    <string-array name="longpress_buttons_entries">
+        <item>无</item>
+        <item>最近应用</item>
+        <item>重启对话框</item>
+        <item>电源对话框</item>
+        <item>搜索</item>
+        <item>扩展状态栏</item>
+        <item>杀当前应用</item>
+        <item>截屏</item>
+        <item>手电筒</item>
+        <item>音乐-播放/暂停</item>
+        <item>音乐-上一曲</item>
+        <item>音乐-下一曲</item>
+        <item>关屏</item>
+        <item>自定义应用</item>
+    </string-array>
+    <string-array name="animations_entries">
+        <item>标准</item>
+        <item>果冻豆</item>
+        <item>翻转</item>
+        <item>折叠</item>
+        <item>飞入</item>
+    </string-array>
+    <string-array name="shortpress_buttons_entries">
+        <item>无</item>
+        <item>最近应用</item>
+        <item>重启对话框</item>
+        <item>电源对话框</item>
+        <item>扩展状态栏</item>
+        <item>杀当前应用</item>
+        <item>截屏</item>
+        <item>手电筒</item>
+        <item>音乐-播放/暂停</item>
+        <item>音乐-上一曲</item>
+        <item>音乐-下一曲</item>
+        <item>关屏</item>
+        <item>自定义应用</item>
+    </string-array>
+    <string-array name="longress_home_ls_entries">
+        <item>无</item>
+        <item>手电筒</item>
+        <item>自定义应用</item>
+    </string-array>
+    <string-array name="longpress_timeout_entries">
+        <item>极短</item>
+        <item>较短</item>
+        <item>一般</item>
+        <item>较长</item>
+        <item>极长</item>
+    </string-array>
+    <string-array name="sweep_wake_entries">
+        <item>开启(无键盘灯)</item>
+        <item>开启(有键盘灯)</item>
+        <item>关闭</item>
+    </string-array>
+    <string-array name="lockscreen_orientation_entries">
+        <item>垂直</item>
+        <item>水平</item>
+        <item>自动</item>
+    </string-array>
+    <string-array name="clock_widget_apps">
+        <item>定义时间应用</item>
+        <item>定义天气应用</item>
+    </string-array>
+    <string-array name="keyboard_arrows_entries">
+        <item>不隐藏</item>
+        <item>仅隐藏上下箭头</item>
+        <item>箭头全隐藏</item>
+    </string-array>
+    <string-array name="unlock_buttons_entries">
+        <item>主页键</item>
+        <item>菜单键</item>
+        <item>返回键</item>
+        <item>搜索键</item>
+    </string-array>
+    <string-array name="extended_statusbartext_entries">
+        <item>禁用</item>
+        <item>WiFi状态</item>
+        <item>电池状态</item>
+        <item>内存信息</item>
+        <item>内存卡信息</item>
+        <item>CPU 概况</item>
+        <item>CPU 占用</item>
+        <item>CPU 频率</item>
+    </string-array>
+    <string-array name="use_media_entries">
+        <item>不使用</item>
+        <item>上/下一曲</item>
+        <item>播放/暂停/下一曲</item>
+    </string-array>
+    <string-array name="h_icon_replace_entries">
+        <item>H</item>
+        <item>4G</item>
+        <item>4G LTE</item>
+        <item>LTE</item>
+        <item>3G</item>
+        <item>3G+</item>
+        <item>H+</item>
+    </string-array>
+    <string-array name="pref_clock_entries">
+        <item>隐藏</item>
+        <item>靠右</item>
+        <item>居中</item>
+    </string-array>
+    <string-array name="pref_rosie_smooth_entries">
+        <item>正常</item>
+        <item>超级流畅</item>
+        <item>极度流畅</item>
+    </string-array>
+    <string-array name="pref_volume_entries">
+        <item>正常</item>
+        <item>细微</item>
+        <item>最细微</item>
+    </string-array>
+    <string-array name="pref_overscrollcolor_entries">
+        <item>无</item>
+        <item>绿色</item>
+        <item>红色</item>
+        <item>蓝色</item>
+        <item>黄色</item>
+        <item>橙色</item>
+        <item>青绿色</item>
+        <item>粉色</item>
+        <item>紫色</item>
+        <item>黑色</item>
+        <item>灰色</item>
+        <item>白色</item>
+    </string-array>
+    <string-array name="battery_text_display_entries">
+        <item>正常 %</item>
+        <item>较小 %</item>
+        <item>不显示 %</item>
+        <item>隐藏数字</item>
+    </string-array>
+    <string-array name="pref_overscroll_effect_entries">
+        <item>无</item>
+        <item>边缘发光</item>
+        <item>反弹且发光</item>
+        <item>反弹</item>
+    </string-array>
+    <string-array name="quick_settings_entries">
+        <item>毒蛇微调</item>
+        <item>音量调节</item>
+        <item>屏幕常亮</item>
+        <item>自动亮度</item>
+        <item>手电筒</item>
+        <item>自动旋转</item>
+        <item>飞行模式</item>
+        <item>Wi-Fi</item>
+        <item>移动网络</item>
+        <item>网络模式</item>
+        <item>Wi-Fi 热点</item>
+        <item>自动同步</item>
+        <item>蓝牙</item>
+        <item>GPS</item>
+        <item>静音模式</item>
+        <item>振动模式</item>
+        <item>无线 ADB</item>
+        <item>索尼音效</item>
+        <item>电源效率</item>
+        <item>重启</item>
+        <item>任务管理器</item>
+    </string-array>
+    <string-array name="hide_lockscreen_date_entries">
+        <item>隐藏日期</item>
+        <item>隐藏时间</item>
+        <item>隐藏上/下午</item>
+    </string-array>
+    <string-array name="hide_lockscreen_shortcuts_entries">
+        <item>隐藏标签</item>
+        <item>隐藏图标</item>
+    </string-array>
+    <string-array name="hide_noti_entries">
+        <item>闹钟图标</item>
+        <item>GPS图标</item>
+        <item>耳机图标</item>
+        <item>音量图标</item>
+        <item>WiFi图标</item>
+        <item>蓝牙图标</item>
+        <item>USB调试图标</item>
+    </string-array>
+    <string-array name="autobrightness_entries">
+        <item>正常</item>
+        <item>较低</item>
+        <item>最低</item>
+        <item>手动</item>
+    </string-array>
+    <string-array name="show_apm_items">
+        <item>重启</item>
+        <item>截屏</item>
+        <item>飞行模式</item>
+        <item>移动数据</item>
+        <item>声音控制</item>
+    </string-array>
+    <string-array name="recentapps_style_entries">
+        <item>默认</item>
+        <item>Android 4.0</item>
+    </string-array>
+    <string-array name="pref_capacitive_backlight_entries">
+        <item>默认</item>
+        <item>较暗</item>
+        <item>自动</item>
+        <item>总是熄灭</item>
+        <item>总是点亮（高亮）</item>
+        <item>总是点亮（较暗）</item>
+    </string-array>
+    <string-array name="gestures_entries">
+        <item>无</item>
+        <item>自定义程序</item>
+        <item>最近运行的程序</item>
+        <item>返回上一程序</item>
+        <item>返回主屏幕</item>
+        <item>关闭当前程序</item>
+        <item>播放/暂停</item>
+        <item>下一曲</item>
+        <item>上一曲</item>
+        <item>展开通知栏</item>
+    </string-array>
+    <string-array name="gesture_button_entries">
+        <item>无</item>
+        <item>自定义程序</item>
+        <item>最近运行的程序</item>
+        <item>播放/暂停</item>
+        <item>下一曲</item>
+        <item>上一曲</item>
+        <item>展开通知栏</item>
+    </string-array>
+    <string-array name="minfree_entries">
+        <item>官方</item>
+        <item>多任务</item>
+        <item>超级多任务</item>
+        <item>极限多任务</item>
+        <item>手动</item>
+    </string-array>
+    <string-array name="anim_strings">
+        <item>标准</item>
+        <item>加速和减速</item>
+        <item>减速</item>
+        <item>加速</item>
+    </string-array>
+    <string-array name="pulse_strings">
+        <item>脉冲</item>
+        <item>标准</item>
+    </string-array>
+</resources>

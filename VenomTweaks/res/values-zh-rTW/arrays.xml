@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="unlock_buttons_entries">
+        <item>主頁鍵</item>
+        <item>菜單鍵</item>
+        <item>返回鍵</item>
+        <item>搜索鍵</item>
+    </string-array>
+    <string-array name="extended_statusbartext_entries">
+        <item>禁用</item>
+        <item>WiFi狀態</item>
+        <item>電池狀態</item>
+        <item>記憶體資訊</item>
+        <item>記憶卡資訊</item>
+        <item>CPU 概況</item>
+        <item>CPU 佔用</item>
+        <item>CPU 频率頻率</item>
+    </string-array>
+    <string-array name="use_media_entries">
+        <item>不使用</item>
+        <item>上/下一曲</item>
+        <item>播放-暫停/下一曲</item>
+    </string-array>
+    <string-array name="h_icon_replace_entries">
+        <item>H</item>
+        <item>4G</item>
+        <item>4G LTE</item>
+        <item>LTE</item>
+        <item>3G</item>
+        <item>3G+</item>
+        <item>H+</item>
+    </string-array>
+    <string-array name="pref_clock_entries">
+        <item>隱藏</item>
+        <item>靠右</item>
+        <item>居中</item>
+    </string-array>
+    <string-array name="pref_rosie_smooth_entries">
+        <item>正常</item>
+        <item>超級平滑</item>
+        <item>極端平滑</item>
+    </string-array>
+    <string-array name="pref_volume_entries">
+        <item>正常</item>
+        <item>細微</item>
+        <item>最細微</item>
+    </string-array>
+    <string-array name="pref_overscrollcolor_entries">
+        <item>無</item>
+        <item>綠色</item>
+        <item>紅色</item>
+        <item>藍色</item>
+        <item>黃色</item>
+        <item>澄色</item>
+        <item>青綠色</item>
+        <item>粉色</item>
+        <item>紫色</item>
+        <item>黑色</item>
+        <item>灰色</item>
+        <item>白色</item>
+    </string-array>
+    <string-array name="battery_text_display_entries">
+        <item>正常 %</item>
+        <item>較小 %</item>
+        <item>不顯示 %</item>
+        <item>隱藏數字</item>
+    </string-array>
+    <string-array name="pref_overscroll_effect_entries">
+        <item>無</item>
+        <item>邊緣發光</item>
+        <item>反彈且發光</item>
+        <item>反彈</item>
+    </string-array>
+    <string-array name="quick_settings_entries">
+        <item>Tweaks</item>
+        <item>音量調節</item>
+        <item>自動關屏</item>
+        <item>自動亮度</item>
+        <item>手電筒</item>
+        <item>螢幕旋轉</item>
+        <item>飛行模式</item>
+        <item>Wi-Fi</item>
+        <item>移動網路</item>
+        <item>Network mode</item>
+        <item>Wi-Fi 熱點</item>
+        <item>自動同步</item>
+        <item>藍牙</item>
+        <item>GPS</item>
+        <item>靜音模式</item>
+        <item>振動模式</item>
+        <item>無線 ADB</item>
+        <item>Sony xLOUD</item>
+        <item>Power Saver</item>
+        <item>重啟</item>
+        <item>工作管理員</item>
+    </string-array>
+    <string-array name="hide_lockscreen_date_entries">
+        <item>隱藏日期</item>
+        <item>隱藏時間</item>
+        <item>隱藏 上/下午</item>
+    </string-array>
+    <string-array name="hide_lockscreen_shortcuts_entries">
+        <item>隱藏標籤</item>
+        <item>隱藏泡泡</item>
+    </string-array>
+    <string-array name="hide_noti_entries">
+        <item>鬧鐘圖示</item>
+        <item>GPS圖示</item>
+        <item>耳機圖示</item>
+        <item>音量圖示</item>
+        <item>WiFi圖示</item>
+        <item>藍牙圖示</item>
+        <item>USB調試圖示</item>
+    </string-array>
+    <string-array name="autobrightness_entries">
+        <item>正常</item>
+        <item>較低</item>
+        <item>最低</item>
+        <item>手動</item>
+    </string-array>
+    <string-array name="show_apm_items">
+        <item>重啟</item>
+        <item>截屏</item>
+        <item>飛行模式</item>
+        <item>移動數據</item>
+        <item>聲音控制</item>
+    </string-array>
+    <string-array name="recentapps_style_entries">
+        <item>預設</item>
+        <item>Android 4.0</item>
+    </string-array>
+    <string-array name="pref_capacitive_backlight_entries">
+        <item>預設</item>
+        <item>較暗</item>
+        <item>自動</item>
+        <item>總是熄滅</item>
+        <item>總是點亮（高亮）</item>
+        <item>總是點亮（較暗）</item>
+    </string-array>
+    <string-array name="gestures_entries">
+        <item>無</item>
+        <item>自訂程式</item>
+        <item>最近運行的程式</item>
+        <item>返回上一程式</item>
+        <item>返回主螢幕</item>
+        <item>關閉當前程式</item>
+        <item>播放/暫停</item>
+        <item>下一曲</item>
+        <item>上一曲</item>
+        <item>展開通知欄</item>
+    </string-array>
+</resources>

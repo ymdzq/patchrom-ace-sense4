@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+<string name="use_media">0</string>
+<boolean name="hide_opname" value="false" />
+<boolean name="use_volume" value="false" />
+<boolean name="asop_lockscreen" value="false" />
+<boolean name="lockscreen_style" value="false" />
+<boolean name="super_quick_settings" value="true" />
+<boolean name="cm_brightness_control" value="true" />
+<string name="overscroll_color">-1</string>
+<boolean name="show_miui" value="false" />
+<boolean name="lockscreen_hide_opname" value="false" />
+<boolean name="enable_landscape" value="true" />
+<int name="extended_statusbartext_color" value="-1" />
+<string name="pref_rosie_smooth">0</string>
+<boolean name="use_xloud" value="false" />
+<boolean name="pref_sysrw" value="false" />
+<string name="recentapps_style">1</string>
+<string name="lockscreen_caption"></string>
+<boolean name="bootanimation" value="false" />
+<boolean name="enable_boot_sound" value="false" />
+<string name="pref_overscrollcolor">5</string>
+<string name="pref_volumesteps">0</string>
+<string name="pref_lockscreen_caption"></string>
+<boolean name="fast_dormancy" value="false" />
+<boolean name="automotive_navapp" value="true" />
+<string name="volume_control">0</string>
+<string name="extended_statusbartext">0</string>
+<boolean name="extended_statusbartext_showicon" value="true" />
+<boolean name="unlock_slide" value="true" />
+<boolean name="battery_automatically_color_pref" value="false" />
+<boolean name="pref_hide_arrows" value="false" />
+<boolean name="cube_animation" value="true" />
+<string name="battery_text_style_pref">0</string>
+<string name="pref_statusbar_caption"></string>
+<string name="h_icon_replace">0</string>
+<boolean name="batterybar_automatically_color_pref" value="false" />
+<boolean name="hide_date" value="false"/>
+<string name="pref_brighntess">0</string>
+<boolean name="sms_screenon" value="false" />
+<boolean name="weatherzh" value="false" />
+</map>

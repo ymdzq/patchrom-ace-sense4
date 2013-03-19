@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.htc.preference.HtcPreferenceScreen android:title="@string/gestures" android:key="misc_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <com.htc.preference.HtcCheckBoxPreference android:title="@string/enable_gestures" android:key="enable_gestures" />
+    <com.htc.preference.HtcPreferenceCategory android:title="@string/direction" android:key="direction">
+        <com.htc.preference.HtcListPreference android:entries="@array/gestures_entries" android:title="@string/gesture_up" android:key="gesture_up" android:defaultValue="0" android:entryValues="@array/gestures_values" />
+        <com.htc.preference.HtcListPreference android:entries="@array/gestures_entries" android:title="@string/gesture_down" android:key="gesture_down" android:defaultValue="0" android:entryValues="@array/gestures_values" />
+        <com.htc.preference.HtcListPreference android:entries="@array/gestures_entries" android:title="@string/gesture_left" android:key="gesture_left" android:defaultValue="0" android:entryValues="@array/gestures_values" />
+        <com.htc.preference.HtcListPreference android:entries="@array/gestures_entries" android:title="@string/gesture_right" android:key="gesture_right" android:defaultValue="0" android:entryValues="@array/gestures_values" />
+    </com.htc.preference.HtcPreferenceCategory>
+</com.htc.preference.HtcPreferenceScreen>

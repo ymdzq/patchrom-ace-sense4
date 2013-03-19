@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="unlock_buttons_entries">
+        <item>Home</item>
+        <item>Menu</item>
+        <item>Wstecz</item>
+        <item>Szukaj</item>
+    </string-array>
+    <string-array name="extended_statusbartext_entries">
+        <item>Wyłączone</item>
+        <item>Status WiFi</item>
+        <item>Status baterii</item>
+        <item>Informacja o RAM</item>
+        <item>Miejsce SDCard</item>
+        <item>Profil CPU</item>
+        <item>Użycie CPU</item>
+        <item>Częstotliwość CPU</item>
+    </string-array>
+    <string-array name="use_media_entries">
+        <item>Nie używaj</item>
+        <item>Poprz./Nast. utwór</item>
+        <item>Graj-Pauza/Nast. utwór</item>
+    </string-array>
+    <string-array name="h_icon_replace_entries">
+        <item>H</item>
+        <item>4G</item>
+        <item>4G LTE</item>
+        <item>LTE</item>
+        <item>3G</item>
+        <item>3G+</item>
+        <item>H+</item>
+    </string-array>
+    <string-array name="pref_clock_entries">
+        <item>Ukryj</item>
+        <item>Normalny</item>
+        <item>Centruj</item>
+    </string-array>
+    <string-array name="pref_rosie_smooth_entries">
+        <item>Normalny</item>
+        <item>Supersmooth</item>
+        <item>Ultrasmooth</item>
+    </string-array>
+    <string-array name="pref_volume_entries">
+        <item>Normalny</item>
+        <item>Lepszy</item>
+        <item>Najlepszy</item>
+    </string-array>
+    <string-array name="pref_overscrollcolor_entries">
+        <item>Brak</item>
+        <item>Zielony</item>
+        <item>Czerwony</item>
+        <item>Niebieski</item>
+        <item>Żółty</item>
+        <item>Pomarańczowy</item>
+        <item>Cyan</item>
+        <item>Różowy</item>
+        <item>Purpurowy</item>
+        <item>Czarny</item>
+        <item>Szary</item>
+        <item>Biały</item>
+    </string-array>
+    <string-array name="battery_text_display_entries">
+        <item>Zwykły %</item>
+        <item>Mały %</item>
+        <item>Bez %</item>
+        <item>Ukryj Text</item>
+    </string-array>
+    <string-array name="pref_overscroll_effect_entries">
+        <item>Brak</item>
+        <item>Poświata na brzegach</item>
+        <item>Odbijaj i świeć</item>
+        <item>Odbijaj</item>
+    </string-array>
+    <string-array name="quick_settings_entries">
+        <item>Tweaks</item>
+        <item>Głośność</item>
+        <item>Auto wygaszenie</item>
+        <item>Auto Brightness</item>
+        <item>Latarka</item>
+        <item>Obracanie</item>
+        <item>Tryb samolotowy</item>
+        <item>WiFi</item>
+        <item>Sieć GSM</item>
+        <item>Network mode</item>
+        <item>Hotspot WiFi</item>
+        <item>AutoSync</item>
+        <item>Bluetooth</item>
+        <item>GPS</item>
+        <item>Tryb cichy</item>
+        <item>Tryb wibracji</item>
+        <item>Bezprzewodowy ADB</item>
+        <item>Menadżer zadań</item>
+        <item>Sony xLOUD</item>
+        <item>Restart</item>
+        <item>Power Saver</item>
+    </string-array>
+    <string-array name="show_apm_items">
+        <item>Restart</item>
+        <item>Zrzut ekranu</item>
+        <item>Tryb samolotowy</item>
+        <item>Dane przez GSM</item>
+        <item>Kontrola dźwięku</item>
+    </string-array>
+    <string-array name="recentapps_style_entries">
+        <item>Domyślny</item>
+        <item>Android 4.0</item>
+    </string-array>
+    <string-array name="pref_capacitive_backlight_entries">
+        <item>Domyślny</item>
+        <item>Przyciemnione</item>
+        <item>Automatycznie</item>
+        <item>Zawsze wył.</item>
+        <item>Zawsze wł., Pełne</item>
+        <item>Zawsze wł., Przyciemnione</item>
+    </string-array>
+    <string-array name="gestures_entries">
+        <item>Brak</item>
+        <item>Niestandardowa aplikacja</item>
+        <item>Ostatnie aplikacje</item>
+        <item>Idź do poprzedniej aplikacji</item>
+        <item>Idź na ekran główny</item>
+        <item>Zabij bieżącą aplikację</item>
+        <item>Graj/Pauza</item>
+        <item>Następny utwór</item>
+        <item>Poprzedni utwór</item>
+        <item>Rozszerz obszar powiadomień</item>
+    </string-array>
+    <string-array name="pref_autobrightness_entries">
+        <item>Normalny</item>
+        <item>Niższy</item>
+        <item>Najniższy</item>
+    </string-array>
+    <string-array name="Ukryj_lockscreen_date_entries">
+        <item>Ukryj datę</item>
+        <item>Ukryj czas</item>
+        <item>Ukryj AM/PM</item>
+    </string-array>
+    <string-array name="Ukryj_lockscreen_shortcuts_entries">
+        <item>Ukryj etykiety</item>
+        <item>Ukryj dymki</item>
+    </string-array>
+    <string-array name="Ukryj_noti_entries">
+        <item>Ikona alarmu</item>
+        <item>Ikona GPS</item>
+        <item>Ikona słuchawek</item>
+        <item>Ikona głośności</item>
+        <item>Ikona WiFi</item>
+        <item>Ikona Bluetooth</item>
+        <item>Ikona ADB</item>
+    </string-array>
+</resources>

@@ -1,0 +1,26 @@
+#!/system/bin/sh
+
+#Optimizations for EXT4
+mount -o remount,noatime,noauto_da_alloc,nodiratime,barrier=0 /dev/block/mmcblk0p25 /system
+mount -o remount,noatime,noauto_da_alloc,nosuid,nodev,nodiratime,barrier=0 /dev/block/mmcblk0p26 /data
+mount -o remount,noatime,noauto_da_alloc,nosuid,nodev,nodiratime,barrier=0 /cache /cache
+
+tune2fs -o journal_data_writeback /dev/block/mmcblk0p25
+tune2fs -O ^has_journal /dev/block/mmcblk0p25 
+tune2fs -o journal_data_writeback /dev/block/mmcblk0p26
+tune2fs -O ^has_journal /dev/block/mmcblk0p26
+
+echo "EXT Optimization Complete"; 
+
+#Clean Caches & improve app loading times
+
+rm -r /cache/*.apk
+rm -r /cache/*.tmp
+rm -r /data/dalvik-cache/*.apk
+rm -r /data/dalvik-cache/*.tmp
+	
+echo "Cache Cleanup Complete";
+
+# ViperS Kernel Tweaks
+mount -t debugfs none /sys/kernel/debug;
+echo "NO_NORMALIZED_SLEEPER" > /sys/kernel/debug/sched_features
